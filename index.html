@@ -1,0 +1,680 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Exhibition Index — Top Art Shows Worldwide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..900;1,9..144,300..900&family=Spline+Sans+Mono:wght@300..700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --paper: #f3efe6;
+  --paper-deep: #eae4d6;
+  --ink: #191612;
+  --ink-soft: #4f4a41;
+  --klein: #1f2fc4;
+  --klein-bright: #2a3ce8;
+  --vermillion: #d43d1a;
+  --rule: rgba(25, 22, 18, 0.22);
+  --rule-soft: rgba(25, 22, 18, 0.1);
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* paper grain */
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 999;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 0.1 0 0 0 0 0.09 0 0 0 0 0.07 0 0 0 0.06 0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+
+.frame {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 clamp(16px, 4vw, 56px);
+}
+
+/* ============ MASTHEAD ============ */
+header {
+  padding-top: clamp(28px, 5vw, 64px);
+  border-bottom: 3px solid var(--ink);
+  position: relative;
+}
+
+.mast-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  padding-bottom: 14px;
+  border-bottom: 1px solid var(--rule);
+  animation: rise 0.7s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.mast-top .dot { color: var(--vermillion); }
+
+h1 {
+  font-family: "Fraunces", serif;
+  font-optical-sizing: auto;
+  font-weight: 560;
+  font-size: clamp(52px, 10.5vw, 148px);
+  line-height: 0.92;
+  letter-spacing: -0.025em;
+  padding: clamp(20px, 3.5vw, 44px) 0 8px;
+  animation: rise 0.8s 0.08s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+h1 em {
+  font-style: italic;
+  font-weight: 380;
+  color: var(--klein);
+}
+
+.mast-sub {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px;
+  padding: 6px 0 26px;
+  animation: rise 0.8s 0.16s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.mast-sub p {
+  max-width: 46ch;
+  color: var(--ink-soft);
+  font-size: 13px;
+}
+
+.issue-stamp {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-align: right;
+  border: 1.5px solid var(--ink);
+  padding: 8px 12px;
+  transform: rotate(1.6deg);
+  background: var(--paper);
+  box-shadow: 3px 3px 0 var(--klein);
+}
+
+@keyframes rise {
+  from { opacity: 0; transform: translateY(22px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* ============ TOOLBAR ============ */
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: var(--paper);
+  border-bottom: 1px solid var(--ink);
+  padding: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  align-items: center;
+  animation: rise 0.8s 0.24s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.search-wrap {
+  flex: 1 1 220px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border: 1.5px solid var(--ink);
+  padding: 8px 12px;
+  background: var(--paper);
+  transition: box-shadow 0.15s ease, transform 0.15s ease;
+}
+
+.search-wrap:focus-within {
+  box-shadow: 3px 3px 0 var(--klein);
+  transform: translate(-1px, -1px);
+}
+
+.search-wrap svg { flex-shrink: 0; }
+
+#search {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: inherit;
+  font-size: 13px;
+  color: var(--ink);
+  width: 100%;
+}
+
+#search::placeholder { color: var(--ink-soft); opacity: 0.7; }
+
+.status-group { display: flex; gap: 0; border: 1.5px solid var(--ink); }
+
+.status-btn {
+  font-family: inherit;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  background: transparent;
+  color: var(--ink);
+  border: none;
+  border-right: 1.5px solid var(--ink);
+  padding: 9px 13px;
+  cursor: pointer;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.status-btn:last-child { border-right: none; }
+.status-btn:hover { background: var(--paper-deep); }
+.status-btn.active { background: var(--ink); color: var(--paper); }
+.status-btn.active.closing { background: var(--vermillion); }
+
+.saved-toggle {
+  font-family: inherit;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 1.5px solid var(--ink);
+  background: transparent;
+  color: var(--ink);
+  padding: 9px 13px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.saved-toggle:hover { background: var(--paper-deep); }
+.saved-toggle.active { background: var(--klein); color: var(--paper); border-color: var(--klein); }
+
+/* ============ CITY RAIL ============ */
+.city-rail {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  padding: 16px 0;
+  border-bottom: 1px solid var(--rule);
+  scrollbar-width: none;
+  animation: rise 0.8s 0.32s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.city-rail::-webkit-scrollbar { display: none; }
+
+.city-chip {
+  font-family: "Fraunces", serif;
+  font-size: 16px;
+  font-weight: 500;
+  white-space: nowrap;
+  background: transparent;
+  color: var(--ink);
+  border: 1.5px solid var(--rule);
+  border-radius: 999px;
+  padding: 6px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: baseline;
+  gap: 7px;
+  transition: all 0.15s ease;
+}
+
+.city-chip sup {
+  font-family: "Spline Sans Mono", monospace;
+  font-size: 10px;
+  color: var(--ink-soft);
+}
+
+.city-chip:hover { border-color: var(--ink); transform: translateY(-1px); }
+
+.city-chip.active {
+  background: var(--klein);
+  border-color: var(--klein);
+  color: var(--paper);
+}
+.city-chip.active sup { color: rgba(243, 239, 230, 0.75); }
+
+/* ============ LEDGER ============ */
+.ledger-head {
+  display: grid;
+  grid-template-columns: 52px 1fr 210px 168px 96px 44px;
+  gap: 16px;
+  padding: 14px 0 10px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: var(--ink-soft);
+  border-bottom: 1px solid var(--rule);
+}
+
+.result-count { padding: 18px 0 0; font-size: 11px; text-transform: uppercase; letter-spacing: 0.14em; color: var(--ink-soft); }
+.result-count b { color: var(--vermillion); font-weight: 600; }
+
+.row {
+  border-bottom: 1px solid var(--rule);
+  cursor: pointer;
+  position: relative;
+  animation: rise 0.55s cubic-bezier(0.2, 0.7, 0.2, 1) both;
+}
+
+.row-main {
+  display: grid;
+  grid-template-columns: 52px 1fr 210px 168px 96px 44px;
+  gap: 16px;
+  align-items: center;
+  padding: 20px 0;
+  transition: background 0.18s ease, color 0.18s ease, padding 0.18s ease;
+}
+
+.row:hover .row-main {
+  background: var(--klein);
+  color: var(--paper);
+  padding-left: 14px;
+  padding-right: 14px;
+  margin: 0 -14px;
+}
+
+.row:hover .idx, .row:hover .venue, .row:hover .dates, .row:hover .artist { color: rgba(243, 239, 230, 0.8); }
+
+.idx {
+  font-size: 11px;
+  color: var(--ink-soft);
+  transition: color 0.18s ease;
+}
+
+.title-cell { min-width: 0; }
+
+.show-title {
+  font-family: "Fraunces", serif;
+  font-size: clamp(20px, 2.6vw, 30px);
+  font-weight: 540;
+  line-height: 1.05;
+  letter-spacing: -0.015em;
+}
+
+.artist {
+  font-size: 11.5px;
+  color: var(--ink-soft);
+  margin-top: 5px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  transition: color 0.18s ease;
+}
+
+.venue { font-size: 12px; color: var(--ink-soft); transition: color 0.18s ease; }
+.venue b { display: block; color: inherit; font-weight: 600; font-size: 12.5px; }
+.row .venue b { color: var(--ink); transition: color 0.18s ease; }
+.row:hover .venue b { color: var(--paper); }
+
+.dates { font-size: 11.5px; color: var(--ink-soft); transition: color 0.18s ease; }
+
+.status-tag {
+  font-size: 9.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 5px 8px;
+  border: 1.2px solid currentColor;
+  text-align: center;
+  justify-self: start;
+  white-space: nowrap;
+}
+
+.status-tag.on { color: var(--klein); }
+.status-tag.closing { color: var(--vermillion); animation: pulse 1.8s ease-in-out infinite; }
+.status-tag.upcoming { color: var(--ink-soft); border-style: dashed; }
+
+.row:hover .status-tag.on { color: var(--paper); }
+.row:hover .status-tag.closing { color: #ffb3a0; }
+.row:hover .status-tag.upcoming { color: rgba(243, 239, 230, 0.8); }
+
+@keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.55; } }
+
+.star-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--ink-soft);
+  padding: 8px;
+  justify-self: end;
+  transition: color 0.15s ease, transform 0.15s ease;
+}
+
+.star-btn:hover { transform: scale(1.25) rotate(12deg); color: var(--vermillion); }
+.star-btn.saved { color: var(--vermillion); }
+.star-btn.saved svg path { fill: var(--vermillion); }
+.row:hover .star-btn { color: var(--paper); }
+.row:hover .star-btn.saved { color: #ffb3a0; }
+.row:hover .star-btn.saved svg path { fill: #ffb3a0; }
+
+/* expanded detail */
+.row-detail {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.35s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+
+.row.open .row-detail { max-height: 320px; }
+
+.detail-inner {
+  display: grid;
+  grid-template-columns: 52px 1fr 280px;
+  gap: 16px;
+  padding: 4px 0 26px;
+}
+
+.detail-blurb {
+  font-family: "Fraunces", serif;
+  font-size: 16.5px;
+  font-weight: 400;
+  line-height: 1.5;
+  font-style: italic;
+  color: var(--ink-soft);
+  max-width: 58ch;
+}
+
+.detail-meta {
+  font-size: 11px;
+  border-left: 2px solid var(--klein);
+  padding-left: 16px;
+  align-self: start;
+}
+
+.detail-meta div { margin-bottom: 8px; }
+.detail-meta a { color: var(--klein); text-decoration: none; border-bottom: 1px solid currentColor; }
+.row:hover .detail-meta a { color: var(--klein); }
+.detail-meta span { display: block; text-transform: uppercase; letter-spacing: 0.12em; font-size: 9px; color: var(--ink-soft); margin-bottom: 1px; }
+
+.empty-state {
+  text-align: center;
+  padding: 90px 0;
+}
+
+.empty-state .big {
+  font-family: "Fraunces", serif;
+  font-style: italic;
+  font-size: clamp(28px, 5vw, 48px);
+  color: var(--ink-soft);
+}
+
+.empty-state p { margin-top: 12px; font-size: 12px; color: var(--ink-soft); }
+
+/* ============ FOOTER ============ */
+footer {
+  margin-top: 60px;
+  border-top: 3px solid var(--ink);
+  padding: 22px 0 44px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.13em;
+  color: var(--ink-soft);
+}
+
+footer .klein { color: var(--klein); }
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 900px) {
+  .ledger-head { display: none; }
+  .row-main {
+    grid-template-columns: 36px 1fr 44px;
+    grid-template-areas:
+      "idx title star"
+      ". venue venue"
+      ". dates dates"
+      ". status status";
+    row-gap: 6px;
+    padding: 18px 0;
+  }
+  .idx { grid-area: idx; }
+  .title-cell { grid-area: title; }
+  .venue { grid-area: venue; }
+  .dates { grid-area: dates; }
+  .status-tag { grid-area: status; }
+  .star-btn { grid-area: star; align-self: start; }
+  .detail-inner { grid-template-columns: 36px 1fr; }
+  .detail-meta { grid-column: 2; border-left: none; padding-left: 0; border-top: 1px solid var(--rule-soft); padding-top: 12px; }
+}
+</style>
+</head>
+<body>
+
+<div class="frame">
+  <header>
+    <div class="mast-top">
+      <span>Vol. I — A Field Guide to Looking</span>
+      <span><span class="dot">●</span> <span id="today-stamp"></span></span>
+    </div>
+    <h1>The Exhibition <em>Index</em></h1>
+    <div class="mast-sub">
+      <p>A running ledger of the exhibitions worth crossing a city — or an ocean — to see. Researched across the capitals of the art world, updated as shows open and close.</p>
+      <div class="issue-stamp">Admit One<br>Standing Worldwide</div>
+    </div>
+  </header>
+
+  <div class="toolbar">
+    <div class="search-wrap">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="search" type="text" placeholder="Search shows, artists, venues…" autocomplete="off">
+    </div>
+    <div class="status-group" id="status-group">
+      <button class="status-btn active" data-status="all">All</button>
+      <button class="status-btn" data-status="on">On view</button>
+      <button class="status-btn closing" data-status="closing">Final weeks</button>
+      <button class="status-btn" data-status="upcoming">Opening soon</button>
+    </div>
+    <button class="saved-toggle" id="saved-toggle">
+      <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+      Saved <span id="saved-count"></span>
+    </button>
+  </div>
+
+  <nav class="city-rail" id="city-rail"></nav>
+
+  <div class="result-count" id="result-count"></div>
+
+  <div class="ledger-head">
+    <span>No.</span><span>Exhibition</span><span>Venue</span><span>Dates</span><span>Status</span><span></span>
+  </div>
+
+  <main id="ledger"></main>
+
+  <footer>
+    <span>The Exhibition Index — go see something in person</span>
+    <span class="klein" id="data-stamp">Live listings · data/exhibitions.json</span>
+  </footer>
+</div>
+
+<script>
+// ============================================================
+// EXHIBITION DATA — fetched from data/exhibitions.json.
+// Re-run the research pass (see REFRESH.md) to update listings.
+// ============================================================
+let EXHIBITIONS = [];
+
+// ============================================================
+const TODAY = new Date(); TODAY.setHours(0,0,0,0);
+const CLOSING_WINDOW_DAYS = 21;
+const MS_DAY = 86400000;
+
+const state = { city: "All", status: "all", query: "", savedOnly: false,
+  saved: new Set(JSON.parse(localStorage.getItem("expo-saved") || "[]")) };
+
+const fmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+const fmtYear = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "2-digit" });
+const keyOf = e => e.title + "|" + e.venue;
+
+function statusOf(e) {
+  const start = new Date(e.start + "T00:00:00");
+  const end = new Date(e.end + "T00:00:00");
+  if (start > TODAY) return "upcoming";
+  if ((end - TODAY) / MS_DAY <= CLOSING_WINDOW_DAYS) return "closing";
+  return "on";
+}
+
+const STATUS_LABEL = { on: "On view", closing: "Final weeks", upcoming: "Opening soon" };
+
+function daysNote(e) {
+  const s = statusOf(e);
+  if (s === "closing") { const d = Math.round((new Date(e.end + "T00:00:00") - TODAY) / MS_DAY); return d <= 0 ? "Closes today" : `${d} day${d === 1 ? "" : "s"} left`; }
+  if (s === "upcoming") { const d = Math.round((new Date(e.start + "T00:00:00") - TODAY) / MS_DAY); return `Opens in ${d} day${d === 1 ? "" : "s"}`; }
+  return "";
+}
+
+function filtered() {
+  const q = state.query.trim().toLowerCase();
+  return EXHIBITIONS
+    .filter(e => state.city === "All" || e.city === state.city)
+    .filter(e => state.status === "all" || statusOf(e) === state.status)
+    .filter(e => !state.savedOnly || state.saved.has(keyOf(e)))
+    .filter(e => !q || [e.title, e.artist, e.venue, e.city, ...(e.tags||[])].join(" ").toLowerCase().includes(q))
+    .sort((a, b) => new Date(a.end) - new Date(b.end));
+}
+
+function renderCities() {
+  const counts = {};
+  EXHIBITIONS.forEach(e => counts[e.city] = (counts[e.city] || 0) + 1);
+  const cities = ["All", ...Object.keys(counts).sort()];
+  document.getElementById("city-rail").innerHTML = cities.map(c =>
+    `<button class="city-chip ${state.city === c ? "active" : ""}" data-city="${c}">${c}<sup>${c === "All" ? EXHIBITIONS.length : counts[c]}</sup></button>`
+  ).join("");
+}
+
+function renderLedger() {
+  const list = filtered();
+  const ledger = document.getElementById("ledger");
+  document.getElementById("result-count").innerHTML =
+    `Showing <b>${list.length}</b> of ${EXHIBITIONS.length} exhibitions` +
+    (state.city !== "All" ? ` in ${state.city}` : " worldwide");
+
+  if (!list.length) {
+    ledger.innerHTML = `<div class="empty-state"><div class="big">Nothing on the walls…</div><p>Adjust your filters, or clear the search.</p></div>`;
+    return;
+  }
+
+  ledger.innerHTML = list.map((e, i) => {
+    const s = statusOf(e);
+    const k = keyOf(e);
+    const saved = state.saved.has(k);
+    return `
+    <article class="row" data-key="${k}" style="animation-delay:${Math.min(i * 45, 500)}ms">
+      <div class="row-main">
+        <span class="idx">${String(i + 1).padStart(2, "0")}</span>
+        <div class="title-cell">
+          <div class="show-title">${e.title}</div>
+          <div class="artist">${e.artist} · ${e.city}</div>
+        </div>
+        <div class="venue"><b>${e.venue}</b>${e.city}</div>
+        <div class="dates">${e.start.slice(0, 4) === e.end.slice(0, 4) ? fmt(e.start) : fmtYear(e.start)} — ${fmtYear(e.end)}<br>${daysNote(e)}</div>
+        <span class="status-tag ${s}">${STATUS_LABEL[s]}</span>
+        <button class="star-btn ${saved ? "saved" : ""}" data-star="${k}" aria-label="Save exhibition" title="${saved ? "Remove from saved" : "Save for later"}">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
+        </button>
+      </div>
+      <div class="row-detail">
+        <div class="detail-inner">
+          <span></span>
+          <p class="detail-blurb">“${e.blurb}”</p>
+          <div class="detail-meta">
+            <div><span>Visitor note</span>${e.note}</div>
+            <div><span>Tagged</span>${(e.tags || []).join(" · ")}</div>
+            ${e.url ? `<div><span>Source</span><a href="${e.url}" target="_blank" rel="noopener">Official page ↗</a></div>` : ""}
+          </div>
+        </div>
+      </div>
+    </article>`;
+  }).join("");
+}
+
+function renderSavedCount() {
+  document.getElementById("saved-count").textContent = state.saved.size ? `(${state.saved.size})` : "";
+}
+
+function persist() { localStorage.setItem("expo-saved", JSON.stringify([...state.saved])); }
+
+// ---- events ----
+document.getElementById("city-rail").addEventListener("click", ev => {
+  const chip = ev.target.closest(".city-chip");
+  if (!chip) return;
+  state.city = chip.dataset.city;
+  renderCities(); renderLedger();
+});
+
+document.getElementById("status-group").addEventListener("click", ev => {
+  const btn = ev.target.closest(".status-btn");
+  if (!btn) return;
+  state.status = btn.dataset.status;
+  document.querySelectorAll(".status-btn").forEach(b => b.classList.toggle("active", b === btn));
+  renderLedger();
+});
+
+document.getElementById("search").addEventListener("input", ev => {
+  state.query = ev.target.value;
+  renderLedger();
+});
+
+document.getElementById("saved-toggle").addEventListener("click", () => {
+  state.savedOnly = !state.savedOnly;
+  document.getElementById("saved-toggle").classList.toggle("active", state.savedOnly);
+  renderLedger();
+});
+
+document.getElementById("ledger").addEventListener("click", ev => {
+  const star = ev.target.closest(".star-btn");
+  if (star) {
+    ev.stopPropagation();
+    const k = star.dataset.star;
+    state.saved.has(k) ? state.saved.delete(k) : state.saved.add(k);
+    persist(); renderSavedCount();
+    if (state.savedOnly) renderLedger();
+    else { star.classList.toggle("saved"); star.title = star.classList.contains("saved") ? "Remove from saved" : "Save for later"; }
+    return;
+  }
+  const row = ev.target.closest(".row");
+  if (row) row.classList.toggle("open");
+});
+
+// ---- init ----
+document.getElementById("today-stamp").textContent =
+  TODAY.toLocaleDateString("en-GB", { weekday: "long", day: "numeric", month: "long", year: "numeric" });
+renderSavedCount();
+
+fetch("data/exhibitions.json")
+  .then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
+  .then(data => {
+    EXHIBITIONS = data.exhibitions || [];
+    if (data.updated) {
+      document.getElementById("data-stamp").textContent = "Listings researched " +
+        new Date(data.updated + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+    }
+    renderCities();
+    renderLedger();
+  })
+  .catch(err => {
+    document.getElementById("ledger").innerHTML =
+      `<div class="empty-state"><div class="big">Couldn't load the listings…</div>
+       <p>data/exhibitions.json failed to load (${err.message}). Serve this folder over HTTP —<br>e.g. <code>python3 -m http.server</code> — rather than opening the file directly.</p></div>`;
+  });
+</script>
+</body>
+</html>
