@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; connect-src 'self'; img-src 'self' data:; base-uri 'none'; form-action 'none'">
 <title>The Exhibition Index — Top Art Shows Worldwide</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -518,11 +519,13 @@ const CLOSING_WINDOW_DAYS = 21;
 const MS_DAY = 86400000;
 
 const state = { city: "All", status: "all", query: "", savedOnly: false,
-  saved: new Set(JSON.parse(localStorage.getItem("expo-saved") || "[]")) };
+  saved: new Set((() => { try { return JSON.parse(localStorage.getItem("expo-saved") || "[]"); } catch { return []; } })()) };
 
 const fmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
 const fmtYear = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "2-digit" });
 const keyOf = e => e.title + "|" + e.venue;
+const esc = v => String(v ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+const safeUrl = u => (/^https?:\/\//i.test(u || "") ? u : null);
 
 function statusOf(e) {
   const start = new Date(e.start + "T00:00:00");
@@ -556,7 +559,7 @@ function renderCities() {
   EXHIBITIONS.forEach(e => counts[e.city] = (counts[e.city] || 0) + 1);
   const cities = ["All", ...Object.keys(counts).sort()];
   document.getElementById("city-rail").innerHTML = cities.map(c =>
-    `<button class="city-chip ${state.city === c ? "active" : ""}" data-city="${c}">${c}<sup>${c === "All" ? EXHIBITIONS.length : counts[c]}</sup></button>`
+    `<button class="city-chip ${state.city === c ? "active" : ""}" data-city="${esc(c)}">${esc(c)}<sup>${c === "All" ? EXHIBITIONS.length : counts[c]}</sup></button>`
   ).join("");
 }
 
@@ -565,7 +568,7 @@ function renderLedger() {
   const ledger = document.getElementById("ledger");
   document.getElementById("result-count").innerHTML =
     `Showing <b>${list.length}</b> of ${EXHIBITIONS.length} exhibitions` +
-    (state.city !== "All" ? ` in ${state.city}` : " worldwide");
+    (state.city !== "All" ? ` in ${esc(state.city)}` : " worldwide");
 
   if (!list.length) {
     ledger.innerHTML = `<div class="empty-state"><div class="big">Nothing on the walls…</div><p>Adjust your filters, or clear the search.</p></div>`;
@@ -576,29 +579,30 @@ function renderLedger() {
     const s = statusOf(e);
     const k = keyOf(e);
     const saved = state.saved.has(k);
+    const url = safeUrl(e.url);
     return `
-    <article class="row" data-key="${k}" style="animation-delay:${Math.min(i * 45, 500)}ms">
+    <article class="row" data-key="${esc(k)}" style="animation-delay:${Math.min(i * 45, 500)}ms">
       <div class="row-main">
         <span class="idx">${String(i + 1).padStart(2, "0")}</span>
         <div class="title-cell">
-          <div class="show-title">${e.title}</div>
-          <div class="artist">${e.artist} · ${e.city}</div>
+          <div class="show-title">${esc(e.title)}</div>
+          <div class="artist">${esc(e.artist)} · ${esc(e.city)}</div>
         </div>
-        <div class="venue"><b>${e.venue}</b>${e.city}</div>
+        <div class="venue"><b>${esc(e.venue)}</b>${esc(e.city)}</div>
         <div class="dates">${e.start.slice(0, 4) === e.end.slice(0, 4) ? fmt(e.start) : fmtYear(e.start)} — ${fmtYear(e.end)}<br>${daysNote(e)}</div>
         <span class="status-tag ${s}">${STATUS_LABEL[s]}</span>
-        <button class="star-btn ${saved ? "saved" : ""}" data-star="${k}" aria-label="Save exhibition" title="${saved ? "Remove from saved" : "Save for later"}">
+        <button class="star-btn ${saved ? "saved" : ""}" data-star="${esc(k)}" aria-label="Save exhibition" title="${saved ? "Remove from saved" : "Save for later"}">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
         </button>
       </div>
       <div class="row-detail">
         <div class="detail-inner">
           <span></span>
-          <p class="detail-blurb">“${e.blurb}”</p>
+          <p class="detail-blurb">“${esc(e.blurb)}”</p>
           <div class="detail-meta">
-            <div><span>Visitor note</span>${e.note}</div>
-            <div><span>Tagged</span>${(e.tags || []).join(" · ")}</div>
-            ${e.url ? `<div><span>Source</span><a href="${e.url}" target="_blank" rel="noopener">Official page ↗</a></div>` : ""}
+            <div><span>Visitor note</span>${esc(e.note)}</div>
+            <div><span>Tagged</span>${esc((e.tags || []).join(" · "))}</div>
+            ${url ? `<div><span>Source</span><a href="${esc(url)}" target="_blank" rel="noopener">Official page ↗</a></div>` : ""}
           </div>
         </div>
       </div>
@@ -610,7 +614,7 @@ function renderSavedCount() {
   document.getElementById("saved-count").textContent = state.saved.size ? `(${state.saved.size})` : "";
 }
 
-function persist() { localStorage.setItem("expo-saved", JSON.stringify([...state.saved])); }
+function persist() { try { localStorage.setItem("expo-saved", JSON.stringify([...state.saved])); } catch {} }
 
 // ---- events ----
 document.getElementById("city-rail").addEventListener("click", ev => {
