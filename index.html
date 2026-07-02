@@ -338,6 +338,26 @@ h1 em {
   white-space: nowrap;
 }
 
+.status-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+  justify-self: start;
+}
+
+.access-badge {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  padding: 3px 6px;
+  border: 1.2px solid var(--klein);
+  color: var(--klein);
+  white-space: nowrap;
+}
+
+.row:hover .access-badge { border-color: rgba(243, 239, 230, 0.8); color: rgba(243, 239, 230, 0.9); }
+
 .status-tag.on { color: var(--klein); }
 .status-tag.closing { color: var(--vermillion); animation: pulse 1.8s ease-in-out infinite; }
 .status-tag.upcoming { color: var(--ink-soft); border-style: dashed; }
@@ -451,7 +471,7 @@ footer .klein { color: var(--klein); }
   .title-cell { grid-area: title; }
   .venue { grid-area: venue; }
   .dates { grid-area: dates; }
-  .status-tag { grid-area: status; }
+  .status-cell { grid-area: status; flex-direction: row; align-items: center; }
   .star-btn { grid-area: star; align-self: start; }
   .detail-inner { grid-template-columns: 36px 1fr; }
   .detail-meta { grid-column: 2; border-left: none; padding-left: 0; border-top: 1px solid var(--rule-soft); padding-top: 12px; }
@@ -484,6 +504,7 @@ footer .klein { color: var(--klein); }
       <button class="status-btn closing" data-status="closing">Final weeks</button>
       <button class="status-btn" data-status="upcoming">Opening soon</button>
     </div>
+    <div class="status-group" id="access-group" hidden></div>
     <button class="saved-toggle" id="saved-toggle">
       <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
       Saved <span id="saved-count"></span>
@@ -518,7 +539,10 @@ const TODAY = new Date(); TODAY.setHours(0,0,0,0);
 const CLOSING_WINDOW_DAYS = 21;
 const MS_DAY = 86400000;
 
-const state = { city: "All", status: "all", query: "", savedOnly: false,
+const ACCESS_LABEL = { museumkaart: "Museumkaart", free: "Free", "pay-what-you-wish": "Pay what you wish" };
+const ACCESS_BADGE = { museumkaart: "MK", free: "Free", "pay-what-you-wish": "PWYW" };
+
+const state = { city: "All", status: "all", access: "all", query: "", savedOnly: false,
   saved: new Set((() => { try { return JSON.parse(localStorage.getItem("expo-saved") || "[]"); } catch { return []; } })()) };
 
 const fmt = d => new Date(d + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
@@ -549,8 +573,9 @@ function filtered() {
   return EXHIBITIONS
     .filter(e => state.city === "All" || e.city === state.city)
     .filter(e => state.status === "all" || statusOf(e) === state.status)
+    .filter(e => state.access === "all" || (e.access || []).includes(state.access))
     .filter(e => !state.savedOnly || state.saved.has(keyOf(e)))
-    .filter(e => !q || [e.title, e.artist, e.venue, e.city, ...(e.tags||[])].join(" ").toLowerCase().includes(q))
+    .filter(e => !q || [e.title, e.artist, e.venue, e.city, ...(e.tags||[]), ...(e.access||[]).map(a => ACCESS_LABEL[a] || a)].join(" ").toLowerCase().includes(q))
     .sort((a, b) => new Date(a.end) - new Date(b.end));
 }
 
@@ -561,6 +586,18 @@ function renderCities() {
   document.getElementById("city-rail").innerHTML = cities.map(c =>
     `<button class="city-chip ${state.city === c ? "active" : ""}" data-city="${esc(c)}">${esc(c)}<sup>${c === "All" ? EXHIBITIONS.length : counts[c]}</sup></button>`
   ).join("");
+}
+
+function renderAccess() {
+  const counts = {};
+  EXHIBITIONS.forEach(e => (e.access || []).forEach(a => counts[a] = (counts[a] || 0) + 1));
+  const values = Object.keys(ACCESS_LABEL).filter(a => counts[a]);
+  const group = document.getElementById("access-group");
+  group.hidden = !values.length;
+  group.innerHTML = [`<button class="status-btn ${state.access === "all" ? "active" : ""}" data-access="all">Any ticket</button>`,
+    ...values.map(a =>
+      `<button class="status-btn ${state.access === a ? "active" : ""}" data-access="${esc(a)}">${esc(ACCESS_LABEL[a])} (${counts[a]})</button>`
+    )].join("");
 }
 
 function renderLedger() {
@@ -590,7 +627,10 @@ function renderLedger() {
         </div>
         <div class="venue"><b>${esc(e.venue)}</b>${esc(e.city)}</div>
         <div class="dates">${e.start.slice(0, 4) === e.end.slice(0, 4) ? fmt(e.start) : fmtYear(e.start)} — ${fmtYear(e.end)}<br>${daysNote(e)}</div>
-        <span class="status-tag ${s}">${STATUS_LABEL[s]}</span>
+        <div class="status-cell">
+          <span class="status-tag ${s}">${STATUS_LABEL[s]}</span>
+          ${(e.access || []).map(a => `<span class="access-badge">${esc(ACCESS_BADGE[a] || a)}</span>`).join("")}
+        </div>
         <button class="star-btn ${saved ? "saved" : ""}" data-star="${esc(k)}" aria-label="Save exhibition" title="${saved ? "Remove from saved" : "Save for later"}">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M12 2.5l2.9 6 6.6.9-4.8 4.6 1.2 6.5L12 17.4 6.1 20.5l1.2-6.5L2.5 9.4l6.6-.9z"/></svg>
         </button>
@@ -602,6 +642,7 @@ function renderLedger() {
           <div class="detail-meta">
             <div><span>Visitor note</span>${esc(e.note)}</div>
             <div><span>Tagged</span>${esc((e.tags || []).join(" · "))}</div>
+            ${(e.access || []).length ? `<div><span>Access</span>${esc(e.access.map(a => ACCESS_LABEL[a] || a).join(" · "))}</div>` : ""}
             ${url ? `<div><span>Source</span><a href="${esc(url)}" target="_blank" rel="noopener">Official page ↗</a></div>` : ""}
           </div>
         </div>
@@ -616,25 +657,58 @@ function renderSavedCount() {
 
 function persist() { try { localStorage.setItem("expo-saved", JSON.stringify([...state.saved])); } catch {} }
 
+// ---- shareable URL state ----
+function syncHash() {
+  const params = new URLSearchParams();
+  if (state.city !== "All") params.set("city", state.city);
+  if (state.status !== "all") params.set("status", state.status);
+  if (state.access !== "all") params.set("access", state.access);
+  if (state.query.trim()) params.set("q", state.query.trim());
+  const s = params.toString();
+  history.replaceState(null, "", s ? "#" + s : location.pathname + location.search);
+}
+
+function readHash() {
+  let params;
+  try { params = new URLSearchParams(location.hash.slice(1)); } catch { return; }
+  const city = params.get("city");
+  if (city && EXHIBITIONS.some(e => e.city === city)) state.city = city;
+  const status = params.get("status");
+  if (["on", "closing", "upcoming"].includes(status)) state.status = status;
+  const access = params.get("access");
+  if (ACCESS_LABEL[access] && EXHIBITIONS.some(e => (e.access || []).includes(access))) state.access = access;
+  state.query = params.get("q") || "";
+  document.getElementById("search").value = state.query;
+  document.querySelectorAll("#status-group .status-btn").forEach(b =>
+    b.classList.toggle("active", b.dataset.status === state.status));
+}
+
 // ---- events ----
 document.getElementById("city-rail").addEventListener("click", ev => {
   const chip = ev.target.closest(".city-chip");
   if (!chip) return;
   state.city = chip.dataset.city;
-  renderCities(); renderLedger();
+  syncHash(); renderCities(); renderLedger();
 });
 
 document.getElementById("status-group").addEventListener("click", ev => {
   const btn = ev.target.closest(".status-btn");
   if (!btn) return;
   state.status = btn.dataset.status;
-  document.querySelectorAll(".status-btn").forEach(b => b.classList.toggle("active", b === btn));
-  renderLedger();
+  document.querySelectorAll("#status-group .status-btn").forEach(b => b.classList.toggle("active", b === btn));
+  syncHash(); renderLedger();
+});
+
+document.getElementById("access-group").addEventListener("click", ev => {
+  const btn = ev.target.closest(".status-btn");
+  if (!btn) return;
+  state.access = btn.dataset.access;
+  syncHash(); renderAccess(); renderLedger();
 });
 
 document.getElementById("search").addEventListener("input", ev => {
   state.query = ev.target.value;
-  renderLedger();
+  syncHash(); renderLedger();
 });
 
 document.getElementById("saved-toggle").addEventListener("click", () => {
@@ -671,7 +745,9 @@ fetch("data/exhibitions.json")
       document.getElementById("data-stamp").textContent = "Listings researched " +
         new Date(data.updated + "T00:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
     }
+    readHash();
     renderCities();
+    renderAccess();
     renderLedger();
   })
   .catch(err => {
