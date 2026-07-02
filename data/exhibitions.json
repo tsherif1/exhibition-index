@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-01",
-  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor covered in depth (home region); Amsterdam covered across Museumkaart member museums (access field 'museumkaart').",
+  "updated": "2026-07-02",
+  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor covered in depth via per-city venue checklists; Amsterdam covered across Museumkaart member museums. Access facts (museumkaart, free) recorded in the 'access' field.",
   "exhibitions": [
     {
       "title": "Whitney Biennial 2026",
@@ -207,7 +207,10 @@
       ],
       "blurb": "Finalists for the Janet & Walter Sondheim Art Prize, Baltimore's flagship award for working artists, shown on Mount Vernon Place.",
       "note": "Free admission",
-      "url": "https://thewalters.org/experience/exhibitions/future/"
+      "url": "https://thewalters.org/experience/exhibitions/future/",
+      "access": [
+        "free"
+      ]
     },
     {
       "title": "A Nation of Artists",
@@ -576,6 +579,306 @@
       "blurb": "The 61st International Art Exhibition realises the late Koyo Kouoh's 'In Minor Keys' — 110 invited participants plus a hundred national pavilions across the city and Forte Marghera.",
       "note": "Allow two full days; comfortable shoes",
       "url": "https://www.labiennale.org/en/art/2026"
+    },
+    {
+      "title": "Rembrandt's Lions: Art and Exile in the Dutch Republic",
+      "artist": "Rembrandt van Rijn",
+      "venue": "Morgan Library & Museum",
+      "city": "New York",
+      "start": "2026-06-26",
+      "end": "2026-10-04",
+      "tags": [
+        "old master",
+        "works on paper"
+      ],
+      "blurb": "The Morgan gathers Rembrandt's celebrated lion drawings and the world of the Dutch Republic around them — intimate sheets by a master observer of living things.",
+      "note": "Pairs well with the restored Morgan library itself",
+      "url": "https://www.themorgan.org/exhibitions"
+    },
+    {
+      "title": "Paul Klee: Other Possible Worlds",
+      "artist": "Paul Klee",
+      "venue": "Jewish Museum",
+      "city": "New York",
+      "start": "2026-03-20",
+      "end": "2026-07-26",
+      "tags": [
+        "painting",
+        "modern"
+      ],
+      "blurb": "The first American museum show devoted to Klee's powerful late work — some one hundred paintings and drawings from his last, unsettling decade.",
+      "note": "Final weeks — closes 26 Jul",
+      "url": "https://thejewishmuseum.org/exhibitions/paul-klee-other-possible-worlds/"
+    },
+    {
+      "title": "Modernity and Opulence: Women of the Wiener Werkstätte",
+      "artist": "Group show",
+      "venue": "Jewish Museum",
+      "city": "New York",
+      "start": "2026-07-17",
+      "end": "2026-11-15",
+      "tags": [
+        "design",
+        "modern"
+      ],
+      "blurb": "For the first time, the lasting contributions of the Jewish women who shaped the Wiener Werkstätte's modernist design language, as artists and as patrons.",
+      "note": "Opens 17 Jul",
+      "url": "https://thejewishmuseum.org/exhibitions/"
+    },
+    {
+      "title": "Yves Saint Laurent and Photography",
+      "artist": "Yves Saint Laurent & photographers",
+      "venue": "International Center of Photography",
+      "city": "New York",
+      "start": "2026-06-11",
+      "end": "2026-09-28",
+      "tags": [
+        "photography",
+        "fashion"
+      ],
+      "blurb": "More than three hundred photographs and archival objects tracing four decades of Saint Laurent's dialogue with the camera — promotion, muse, and legacy-maker at once.",
+      "note": "With Musée Yves Saint Laurent Paris",
+      "url": "https://www.icp.org/exhibitions"
+    },
+    {
+      "title": "Sophie Rivera: Double Exposures",
+      "artist": "Sophie Rivera",
+      "venue": "El Museo del Barrio",
+      "city": "New York",
+      "start": "2026-04-23",
+      "end": "2026-08-02",
+      "tags": [
+        "photography",
+        "portrait"
+      ],
+      "blurb": "The Nuyorican photographer's probing portraits and experiments in doubled imagery, reclaiming a under-sung figure of New York photography.",
+      "note": "Closes 2 Aug",
+      "url": "https://elmuseo.org/exhibitions/"
+    },
+    {
+      "title": "Anicka Yi: Message from the Mud",
+      "artist": "Anicka Yi",
+      "venue": "Storm King Art Center",
+      "city": "New York",
+      "start": "2026-05-17",
+      "end": "2026-11-09",
+      "tags": [
+        "installation",
+        "land art"
+      ],
+      "blurb": "Yi's first large-scale outdoor project stages a fictional archaeological dig — twenty living Winogradsky columns culturing Storm King's own pond mud into slow paintings.",
+      "note": "Storm King, New Windsor — Hudson Valley day trip",
+      "url": "https://stormking.org/"
+    },
+    {
+      "title": "The Outwin 2025: American Portraiture Today",
+      "artist": "Juried group show",
+      "venue": "National Portrait Gallery",
+      "city": "Washington, DC",
+      "start": "2026-01-24",
+      "end": "2026-08-30",
+      "tags": [
+        "portrait",
+        "prize"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "More than thirty portraits from the seventh Outwin Boochever competition — the country's running argument about what a portrait can be.",
+      "note": "First floor galleries",
+      "url": "https://npg.si.edu/"
+    },
+    {
+      "title": "Photographic Memory: Fifty Years of Photography at the National Portrait Gallery",
+      "artist": "Collection survey",
+      "venue": "National Portrait Gallery",
+      "city": "Washington, DC",
+      "start": "2026-05-15",
+      "end": "2027-02-28",
+      "tags": [
+        "photography",
+        "collection"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "A hundred-plus works from daguerreotype to digital, marking fifty years of the museum collecting the photographed face.",
+      "note": "Semiquincentennial season",
+      "url": "https://npg.si.edu/"
+    },
+    {
+      "title": "State Fairs: Growing American Craft",
+      "artist": "Group show",
+      "venue": "Renwick Gallery",
+      "city": "Washington, DC",
+      "start": "2025-08-22",
+      "end": "2026-09-07",
+      "tags": [
+        "craft",
+        "american"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "The first major exhibition on artists' contributions to the American state fair — blue-ribbon craft from quilts to butter sculpture, taken seriously at last.",
+      "note": "Includes Justin Favela's piñata-corn Grand Salon",
+      "url": "https://americanart.si.edu/exhibitions/state-fairs"
+    },
+    {
+      "title": "Nick Cave: Mammoth",
+      "artist": "Nick Cave",
+      "venue": "Smithsonian American Art Museum",
+      "city": "Washington, DC",
+      "start": "2026-02-13",
+      "end": "2027-01-03",
+      "tags": [
+        "installation",
+        "contemporary"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "A monumental new commission: visitors walk among the fantastical remains of ancient creatures, Cave's excavation of American memory at a fraught Smithsonian moment.",
+      "note": "New commission for SAAM",
+      "url": "https://americanart.si.edu/exhibitions/nick-cave"
+    },
+    {
+      "title": "Isaac Julien: Lessons of the Hour — Frederick Douglass",
+      "artist": "Isaac Julien",
+      "venue": "Smithsonian American Art Museum",
+      "city": "Washington, DC",
+      "start": "2023-12-08",
+      "end": "2026-08-09",
+      "tags": [
+        "video",
+        "film"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "Julien's five-screen portrait of Frederick Douglass interweaves period reenactment with poetic image and sound — justice, abolition, and freedom in 28 minutes.",
+      "note": "Final weeks of the long DC run",
+      "url": "https://americanart.si.edu/exhibitions/isaac-julien"
+    },
+    {
+      "title": "Miró and the United States",
+      "artist": "Joan Miró",
+      "venue": "Phillips Collection",
+      "city": "Washington, DC",
+      "start": "2026-03-21",
+      "end": "2026-07-05",
+      "tags": [
+        "painting",
+        "modern"
+      ],
+      "blurb": "A major traveling survey reframing Miró through his transatlantic dialogue with American art — the exchange that helped shape postwar abstraction.",
+      "note": "Closes 5 Jul — last days",
+      "url": "https://www.phillipscollection.org/exhibitions"
+    },
+    {
+      "title": "Douriean Fletcher: Jewelry of the Afrofuture",
+      "artist": "Douriean Fletcher",
+      "venue": "Walters Art Museum",
+      "city": "Baltimore",
+      "start": "2026-04-18",
+      "end": "2026-08-09",
+      "tags": [
+        "craft",
+        "afrofuturism"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "The self-taught jeweler behind Black Panther's adornment — the first jeweler admitted to the Motion Picture Costumers Union — in a gleaming museum showcase.",
+      "note": "Free admission, as all Walters shows",
+      "url": "https://thewalters.org/experience/exhibitions/"
+    },
+    {
+      "title": "Fantastic Realities",
+      "artist": "Visionary artists survey",
+      "venue": "American Visionary Art Museum",
+      "city": "Baltimore",
+      "start": "2025-10-04",
+      "end": "2026-09-06",
+      "tags": [
+        "visionary",
+        "survey"
+      ],
+      "blurb": "AVAM's 30th-anniversary mega-show: 130-plus works of depicted worlds — surreal oils, ceramic subway scenes, chainsaw-carved minotaurs, hand-painted galaxies.",
+      "note": "Anniversary exhibition, whole main building",
+      "url": "https://www.avam.org/exhibits"
+    },
+    {
+      "title": "Raúl de Nieves: and imagine you are here",
+      "artist": "Raúl de Nieves",
+      "venue": "Baltimore Museum of Art",
+      "city": "Baltimore",
+      "start": "2023-11-18",
+      "end": "2026-12-31",
+      "tags": [
+        "installation",
+        "beadwork"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "De Nieves' shimmering beaded figures and stained-glass-like panels transform the BMA's East Lobby into a processional fantasy, on long-term view.",
+      "note": "East Lobby commission",
+      "url": "https://artbma.org/exhibitions/"
+    },
+    {
+      "title": "A World in the Making: The Shakers",
+      "artist": "Group show",
+      "venue": "Institute of Contemporary Art, University of Pennsylvania",
+      "city": "Philadelphia",
+      "start": "2026-01-31",
+      "end": "2026-08-09",
+      "tags": [
+        "design",
+        "craft"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "Original Shaker furniture and objects alongside contemporary artists channeling — and challenging — the sect's radical design legacy of community, labor, and equality.",
+      "note": "ICA is always free",
+      "url": "https://icaphila.org/exhibitions/the-shakers-a-world-in-the-making/"
+    },
+    {
+      "title": "World Press Photo Exhibition 2026",
+      "artist": "World Press Photo winners",
+      "venue": "De Nieuwe Kerk",
+      "city": "Amsterdam",
+      "start": "2026-04-24",
+      "end": "2026-09-27",
+      "tags": [
+        "photography",
+        "photojournalism"
+      ],
+      "access": [
+        "museumkaart"
+      ],
+      "blurb": "The year's prize-winning photojournalism in the Nieuwe Kerk's Gothic nave — the world's news cycle slowed down to the strength of single images.",
+      "note": "On Dam Square, beside the Palace",
+      "url": "https://www.museum.nl/en/de-nieuwe-kerk/exhibition/world-press-photo-exhibition-2026"
+    },
+    {
+      "title": "Made in China",
+      "artist": "Craft and design survey",
+      "venue": "Wereldmuseum Amsterdam",
+      "city": "Amsterdam",
+      "start": "2025-10-17",
+      "end": "2026-08-31",
+      "tags": [
+        "design",
+        "craft"
+      ],
+      "access": [
+        "museumkaart"
+      ],
+      "blurb": "What does the label really mean? Millennia of Chinese making — from imperial craft to contemporary art and design — unpacked at the Wereldmuseum.",
+      "note": "Final month — closes 31 Aug",
+      "url": "https://amsterdam.wereldmuseum.nl/en/whats-on/exhibitions"
     }
   ]
 }
