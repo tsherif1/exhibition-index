@@ -9,9 +9,13 @@ in this folder and give it the prompt below (or just say "refresh the exhibition
 > in depth: New York (5–8 shows — Met, MoMA, MoMA PS1, Whitney, Guggenheim, Brooklyn Museum,
 > Frick, New Museum, plus notable galleries), then Washington DC, Baltimore, and Philadelphia
 > (2–4 each — NGA, Hirshhorn, Smithsonian museums, BMA, Walters, PMA, Barnes, PAFA).
-> Then the international cities: London, Paris, Tokyo, Berlin, Amsterdam, Hong Kong, Seoul,
-> Mexico City, São Paulo, Venice. Use web search against museum sites and reputable listings
-> press. Rules:
+> Then Amsterdam in depth (4–8 shows): sweep the Museumkaart member museums — Rijksmuseum,
+> Van Gogh Museum, Stedelijk, H'ART Museum, Foam, Eye Filmmuseum, Museum Het Rembrandthuis,
+> Huis Marseille, Wereldmuseum, Het Scheepvaartmuseum, De Nieuwe Kerk, Amsterdam Museum,
+> Jewish Museum, Allard Pierson, and the other ~40 members — and tag every show at a member
+> museum with `museumkaart`. Then the remaining international cities: London, Paris, Tokyo,
+> Berlin, Hong Kong, Seoul, Mexico City, São Paulo, Venice. Use web search against museum
+> sites and reputable listings press. Rules:
 >
 > 1. Only include shows whose title, venue, and full date range you can verify — no guessed dates.
 > 2. Keep the existing JSON schema exactly (fields: title, artist, venue, city, start, end,

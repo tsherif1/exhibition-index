@@ -1,6 +1,6 @@
 {
   "updated": "2026-07-01",
-  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor covered in depth (home region).",
+  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor covered in depth (home region); Amsterdam covered across Museumkaart member museums (tagged 'museumkaart').",
   "exhibitions": [
     {
       "title": "Whitney Biennial 2026",
@@ -297,10 +297,22 @@
       "city": "Amsterdam",
       "start": "2026-06-19",
       "end": "2026-09-13",
-      "tags": ["photography"],
+      "tags": ["photography", "museumkaart"],
       "blurb": "The foremost Dutch photographer of the twentieth century — restless, romantic street work from Paris to Tokyo — honoured at the national museum.",
       "note": "Carel Visser sculptures in the gardens, free",
       "url": "https://www.rijksmuseum.nl/en"
+    },
+    {
+      "title": "Van Gogh and the Roulins",
+      "artist": "Vincent van Gogh",
+      "venue": "Van Gogh Museum",
+      "city": "Amsterdam",
+      "start": "2026-06-12",
+      "end": "2026-09-06",
+      "tags": ["painting", "museumkaart"],
+      "blurb": "The summer exhibition gathers Van Gogh's beloved Arles portraits of the postman Roulin's family, telling how Vincent became world-famous along the way.",
+      "note": "Timed entry — book well ahead",
+      "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions"
     },
     {
       "title": "Yayoi Kusama: Retrospective",
@@ -309,10 +321,82 @@
       "city": "Amsterdam",
       "start": "2026-09-11",
       "end": "2027-01-17",
-      "tags": ["retrospective", "immersive"],
+      "tags": ["retrospective", "immersive", "museumkaart"],
       "blurb": "Seven decades of dots, nets and mirror rooms in a full retrospective — Amsterdam's big autumn ticket, worth planning a trip around.",
       "note": "Opens 11 Sep — set a reminder",
       "url": "https://www.stedelijk.nl/en/whats-on"
+    },
+    {
+      "title": "American Identities: David Levinthal & ChicanX",
+      "artist": "David Levinthal & ChicanX artists",
+      "venue": "H'ART Museum",
+      "city": "Amsterdam",
+      "start": "2026-02-14",
+      "end": "2026-09-02",
+      "tags": ["photography", "american", "museumkaart"],
+      "blurb": "H'ART's America-focused year with the Smithsonian: Levinthal's staged toy tableaux alongside ChicanX portraiture, marking 250 years of Dutch-American ties.",
+      "note": "Matisse takes over from September",
+      "url": "https://www.hartmuseum.nl/en/exhibitions/"
+    },
+    {
+      "title": "Martin Parr: Very Modern and Rather Ugly",
+      "artist": "Martin Parr",
+      "venue": "Foam",
+      "city": "Amsterdam",
+      "start": "2026-04-03",
+      "end": "2026-08-12",
+      "tags": ["photography", "museumkaart"],
+      "blurb": "Five decades of Parr's saturated, deadpan chronicle of consumer culture and everyday ritual — his most iconic series in one landmark show.",
+      "note": "Compact canal-house museum",
+      "url": "https://www.foam.org/events/martin-parr"
+    },
+    {
+      "title": "Foam Talent 2026",
+      "artist": "15 emerging photographers",
+      "venue": "Foam",
+      "city": "Amsterdam",
+      "start": "2026-06-05",
+      "end": "2026-08-28",
+      "tags": ["photography", "emerging", "museumkaart"],
+      "blurb": "Fifteen artists chosen from nearly 3,000 submissions across 107 countries — Foam's annual scouting report on where photography is heading.",
+      "note": "Same building as Martin Parr",
+      "url": "https://www.foam.org/events/foam-talent-2026"
+    },
+    {
+      "title": "Eye(s) Open: New Perspectives on Colonial Film Heritage",
+      "artist": "11 artists",
+      "venue": "Eye Filmmuseum",
+      "city": "Amsterdam",
+      "start": "2026-04-03",
+      "end": "2026-09-06",
+      "tags": ["film", "installation", "museumkaart"],
+      "blurb": "Eleven artists respond to Eye's archive of some 2,000 colonial-era films from Indonesia and Suriname with ten newly commissioned works.",
+      "note": "Across the IJ — free ferry from Centraal",
+      "url": "https://www.eyefilm.nl/en/exhibitions"
+    },
+    {
+      "title": "Rembrandt & Life",
+      "artist": "Rembrandt van Rijn",
+      "venue": "Museum Het Rembrandthuis",
+      "city": "Amsterdam",
+      "start": "2026-06-12",
+      "end": "2026-08-30",
+      "tags": ["old master", "prints", "museumkaart"],
+      "blurb": "More than fifty prints tracing the whole of life, cradle to grave — shown in the house where Rembrandt lived and worked.",
+      "note": "In Rembrandt's actual house",
+      "url": "https://www.rembrandthuis.nl/en/exhibition/rembrandt-life/"
+    },
+    {
+      "title": "Martine Gutierrez: Wunderkind",
+      "artist": "Martine Gutierrez",
+      "venue": "Huis Marseille",
+      "city": "Amsterdam",
+      "start": "2026-06-27",
+      "end": "2026-10-18",
+      "tags": ["photography", "museumkaart"],
+      "blurb": "The American artist's shape-shifting self-portraiture takes over two seventeenth-century canal houses on the Keizersgracht.",
+      "note": "Amsterdam's photography jewel box",
+      "url": "https://huismarseille.nl/en/"
     },
     {
       "title": "Lee Bul: From 1998 to Now",
