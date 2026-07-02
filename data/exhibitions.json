@@ -1,6 +1,6 @@
 {
   "updated": "2026-07-01",
-  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor covered in depth (home region); Amsterdam covered across Museumkaart member museums (tagged 'museumkaart').",
+  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor covered in depth (home region); Amsterdam covered across Museumkaart member museums (access field 'museumkaart').",
   "exhibitions": [
     {
       "title": "Whitney Biennial 2026",
@@ -9,7 +9,10 @@
       "city": "New York",
       "start": "2026-03-08",
       "end": "2026-08-23",
-      "tags": ["biennial", "survey"],
+      "tags": [
+        "biennial",
+        "survey"
+      ],
       "blurb": "The 82nd edition gathers fifty-six artists, duos, and collectives across family, geopolitics, and myth — the museum's recurring temperature-reading of art in America.",
       "note": "Curated by Marcela Guerrero & Drew Sawyer",
       "url": "https://whitney.org/exhibitions/2026-biennial"
@@ -21,7 +24,10 @@
       "city": "New York",
       "start": "2026-03-05",
       "end": "2026-08-02",
-      "tags": ["sculpture", "retrospective"],
+      "tags": [
+        "sculpture",
+        "retrospective"
+      ],
       "blurb": "Bove's first-ever museum survey fills the entire Frank Lloyd Wright rotunda — twenty-five years of crushed-steel 'collage sculptures' running in reverse chronology down the spiral.",
       "note": "Curated by Katherine Brinson",
       "url": "https://www.guggenheim.org/exhibition/carol-bove"
@@ -33,7 +39,10 @@
       "city": "New York",
       "start": "2026-01-19",
       "end": "2026-08-06",
-      "tags": ["american", "survey"],
+      "tags": [
+        "american",
+        "survey"
+      ],
       "blurb": "The Met's America-250 centerpiece — painting, sculpture, furniture, beadwork and silver tracing the Revolution's roots, course and aftermath across the whole collection.",
       "note": "American Wing and beyond",
       "url": "https://www.metmuseum.org/exhibitions/revolution"
@@ -45,7 +54,10 @@
       "city": "New York",
       "start": "2025-12-14",
       "end": "2026-07-25",
-      "tags": ["photography", "portrait"],
+      "tags": [
+        "photography",
+        "portrait"
+      ],
       "blurb": "A photography-led exploration of Pan-African subjectivity and solidarity, drawn largely from the 2019 Pigozzi gift of modern and contemporary African art.",
       "note": "Final weeks — closes 25 Jul",
       "url": "https://www.moma.org/calendar/exhibitions/5755"
@@ -57,7 +69,10 @@
       "city": "New York",
       "start": "2026-04-16",
       "end": "2026-08-17",
-      "tags": ["survey", "contemporary"],
+      "tags": [
+        "survey",
+        "contemporary"
+      ],
       "blurb": "PS1's once-every-five-years survey of art being made in the city right now — over 150 works spanning the entire building in Long Island City.",
       "note": "Local artists, whole building",
       "url": "https://press.moma.org/exhibition/greater-new-york-2026/"
@@ -69,7 +84,10 @@
       "city": "New York",
       "start": "2026-06-25",
       "end": "2026-08-14",
-      "tags": ["painting", "indigenous"],
+      "tags": [
+        "painting",
+        "indigenous"
+      ],
       "blurb": "The Shipibo-Konibo painter's kené patterns — an ancient Amazonian medium made with materials from the forest — in a rare New York solo.",
       "note": "Free gallery entry",
       "url": "https://www.whitecube.com/"
@@ -81,10 +99,16 @@
       "city": "Washington, DC",
       "start": "2024-09-29",
       "end": "2026-09-07",
-      "tags": ["painting", "street art"],
+      "tags": [
+        "painting",
+        "street art"
+      ],
       "blurb": "Basquiat's 'Boy and Dog in a Johnnypump' faces Banksy's answer, 'Banksquiat' — plus twenty early Basquiat works on paper and the film Downtown 81.",
       "note": "Free, like all Smithsonian museums",
-      "url": "https://hirshhorn.si.edu/exhibitions/basquiat-x-banksy/"
+      "url": "https://hirshhorn.si.edu/exhibitions/basquiat-x-banksy/",
+      "access": [
+        "free"
+      ]
     },
     {
       "title": "Dear America: Artists Explore the American Experience",
@@ -93,10 +117,16 @@
       "city": "Washington, DC",
       "start": "2026-04-11",
       "end": "2026-09-20",
-      "tags": ["works on paper", "american"],
+      "tags": [
+        "works on paper",
+        "american"
+      ],
       "blurb": "115 works on paper reflecting on the nature of the American experience — the National Gallery's quiet, thoughtful contribution to the 250th.",
       "note": "West Building; free entry",
-      "url": "https://www.nga.gov/press/america-250"
+      "url": "https://www.nga.gov/press/america-250",
+      "access": [
+        "free"
+      ]
     },
     {
       "title": "American Icon: The US Flag in Art",
@@ -105,10 +135,16 @@
       "city": "Washington, DC",
       "start": "2026-06-06",
       "end": "2026-12-06",
-      "tags": ["american", "survey"],
+      "tags": [
+        "american",
+        "survey"
+      ],
       "blurb": "Thirty-plus works from the late 1800s to today tracing how artists have used, saluted and interrogated the flag.",
       "note": "East Building Concourse; free",
-      "url": "https://www.nga.gov/press/america-250"
+      "url": "https://www.nga.gov/press/america-250",
+      "access": [
+        "free"
+      ]
     },
     {
       "title": "Adam Pendleton: Love, Queen",
@@ -117,10 +153,16 @@
       "city": "Washington, DC",
       "start": "2025-04-04",
       "end": "2027-01-03",
-      "tags": ["painting", "conceptual"],
+      "tags": [
+        "painting",
+        "conceptual"
+      ],
       "blurb": "New and recent paintings plus a video work wrapping the second-floor inner ring — Pendleton's first Washington solo, mounted for the museum's 50th anniversary.",
       "note": "On view into 2027",
-      "url": "https://hirshhorn.si.edu/exhibitions/adam-pendleton-love-queen/"
+      "url": "https://hirshhorn.si.edu/exhibitions/adam-pendleton-love-queen/",
+      "access": [
+        "free"
+      ]
     },
     {
       "title": "Fratino and Matisse: To See This Light Again",
@@ -129,7 +171,10 @@
       "city": "Baltimore",
       "start": "2026-03-11",
       "end": "2026-09-06",
-      "tags": ["painting", "dialogue"],
+      "tags": [
+        "painting",
+        "dialogue"
+      ],
       "blurb": "Louis Fratino's tender domestic scenes hung alongside the Matisses that shaped them — drawn from the world's largest public collection of Matisse's work.",
       "note": "One of a trio of 2026 Matisse shows",
       "url": "https://artbma.org/press-release/bma-presents-trio-of-matisse-exhibitions-in-march-2026/"
@@ -141,7 +186,10 @@
       "city": "Baltimore",
       "start": "2026-03-18",
       "end": "2026-10-25",
-      "tags": ["painting", "works on paper"],
+      "tags": [
+        "painting",
+        "works on paper"
+      ],
       "blurb": "A focused chapter of the BMA's unrivalled Matisse holdings, pairing portraiture with poetry.",
       "note": "Cone Collection country",
       "url": "https://artbma.org/press-release/bma-presents-trio-of-matisse-exhibitions-in-march-2026/"
@@ -153,7 +201,10 @@
       "city": "Baltimore",
       "start": "2026-06-25",
       "end": "2026-09-13",
-      "tags": ["prize", "contemporary"],
+      "tags": [
+        "prize",
+        "contemporary"
+      ],
       "blurb": "Finalists for the Janet & Walter Sondheim Art Prize, Baltimore's flagship award for working artists, shown on Mount Vernon Place.",
       "note": "Free admission",
       "url": "https://thewalters.org/experience/exhibitions/future/"
@@ -165,7 +216,10 @@
       "city": "Philadelphia",
       "start": "2026-04-17",
       "end": "2027-06-30",
-      "tags": ["american", "survey"],
+      "tags": [
+        "american",
+        "survey"
+      ],
       "blurb": "A thousand-plus portraits, sculptures and photographs spanning three centuries of American art — a blockbuster split across two museums on the Parkway.",
       "note": "Dual-venue with PAFA; runs into 2027",
       "url": "https://www.visitphilly.com/articles/philadelphia/exhibitions-2026/"
@@ -177,7 +231,10 @@
       "city": "Philadelphia",
       "start": "2026-04-01",
       "end": "2026-08-09",
-      "tags": ["film", "installation"],
+      "tags": [
+        "film",
+        "installation"
+      ],
       "blurb": "Film, video and immersive installations by five Black artists — Arthur Jafa, Garrett Bradley, David Hartt, Ja'Tovia Gary and Tourmaline — on how Americans of color shaped the national story.",
       "note": "Free for Philly residents in July",
       "url": "https://www.barnesfoundation.org/whats-on/exhibitions"
@@ -189,7 +246,10 @@
       "city": "Philadelphia",
       "start": "2026-04-01",
       "end": "2027-01-18",
-      "tags": ["photography", "indigenous"],
+      "tags": [
+        "photography",
+        "indigenous"
+      ],
       "blurb": "Eleven immersive panels layering landscape photographs over copper sheets — a commissioned meditation on America's history with Indigenous peoples, filling the Annenberg Court.",
       "note": "Annenberg Court commission",
       "url": "https://www.barnesfoundation.org/whats-on/exhibitions"
@@ -201,7 +261,10 @@
       "city": "London",
       "start": "2026-07-09",
       "end": "2027-01-10",
-      "tags": ["performance", "film"],
+      "tags": [
+        "performance",
+        "film"
+      ],
       "blurb": "Her first comprehensive UK exhibition in over a decade: the earth-body works, newly remastered films, early paintings and late sculpture — much of it never seen in Britain.",
       "note": "First UK survey in over a decade",
       "url": "https://www.tate.org.uk/whats-on"
@@ -213,7 +276,10 @@
       "city": "London",
       "start": "2026-06-11",
       "end": "2027-05-03",
-      "tags": ["kinetic", "op art"],
+      "tags": [
+        "kinetic",
+        "op art"
+      ],
       "blurb": "Interactive installations, mirrored kinetic sculptures and op-art canvases from the 1950s to the 2010s — the Argentine pioneer given a long, playful run.",
       "note": "On view for nearly a year",
       "url": "https://www.tate.org.uk/whats-on"
@@ -225,7 +291,10 @@
       "city": "London",
       "start": "2026-07-02",
       "end": "2026-09-20",
-      "tags": ["painting", "landscape"],
+      "tags": [
+        "painting",
+        "landscape"
+      ],
       "blurb": "The first-ever UK exhibition of the Austrian Biedermeier master — alpine light rendered with near-photographic precision.",
       "note": "First UK Waldmüller show",
       "url": "https://www.nationalgallery.org.uk/"
@@ -237,7 +306,10 @@
       "city": "London",
       "start": "2026-07-25",
       "end": "2026-10-25",
-      "tags": ["victorian", "painting"],
+      "tags": [
+        "victorian",
+        "painting"
+      ],
       "blurb": "A survey of the Victorian painter of obsessive fairy miniatures, most made inside Bethlem and Broadmoor — strange, minute, unforgettable.",
       "note": "Book weekends ahead",
       "url": "https://www.royalacademy.org.uk/"
@@ -249,7 +321,10 @@
       "city": "Paris",
       "start": "2026-03-17",
       "end": "2026-07-19",
-      "tags": ["impressionism", "painting"],
+      "tags": [
+        "impressionism",
+        "painting"
+      ],
       "blurb": "Over ninety works reframing Renoir through love — conviviality, tenderness, desire — masterpieces gathered in Paris on a scale unseen since 1985. Travels on to London and Boston.",
       "note": "Blockbuster — book well ahead",
       "url": "https://www.musee-orsay.fr/en/whats-on/exhibitions/renoir-and-love"
@@ -261,7 +336,10 @@
       "city": "Paris",
       "start": "2026-04-15",
       "end": "2026-07-20",
-      "tags": ["sculpture", "old master"],
+      "tags": [
+        "sculpture",
+        "old master"
+      ],
       "blurb": "Two unrivalled masters of the human body in dialogue across four centuries — more than two hundred works brought together in the Hall Napoléon for the first time.",
       "note": "Timed entry via louvre.fr",
       "url": "https://www.louvre.fr/en/exhibitions-and-events/exhibitions/michelangelo-rodin"
@@ -273,7 +351,10 @@
       "city": "Tokyo",
       "start": "2026-04-29",
       "end": "2026-09-23",
-      "tags": ["sculpture", "hyperreal"],
+      "tags": [
+        "sculpture",
+        "hyperreal"
+      ],
       "blurb": "Eleven works tracing Mueck's uncanny hyperrealism, with the Japan premiere of 'Mass' — one hundred giant skulls — and six pieces never before shown in Japan.",
       "note": "Open to 22:00 most nights, 53rd floor",
       "url": "https://www.mori.art.museum/en/"
@@ -285,7 +366,10 @@
       "city": "Berlin",
       "start": "2026-04-15",
       "end": "2026-08-23",
-      "tags": ["performance", "video"],
+      "tags": [
+        "performance",
+        "video"
+      ],
       "blurb": "Historical works and new pieces tracing her enduring interest in ritual, eroticism, death, and the body as a site of political resistance.",
       "note": "One ticket covers all Gropius Bau shows",
       "url": "https://www.berlinerfestspiele.de/en/gropius-bau"
@@ -297,10 +381,15 @@
       "city": "Amsterdam",
       "start": "2026-06-19",
       "end": "2026-09-13",
-      "tags": ["photography", "museumkaart"],
+      "tags": [
+        "photography"
+      ],
       "blurb": "The foremost Dutch photographer of the twentieth century — restless, romantic street work from Paris to Tokyo — honoured at the national museum.",
       "note": "Carel Visser sculptures in the gardens, free",
-      "url": "https://www.rijksmuseum.nl/en"
+      "url": "https://www.rijksmuseum.nl/en",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Van Gogh and the Roulins",
@@ -309,10 +398,15 @@
       "city": "Amsterdam",
       "start": "2026-06-12",
       "end": "2026-09-06",
-      "tags": ["painting", "museumkaart"],
+      "tags": [
+        "painting"
+      ],
       "blurb": "The summer exhibition gathers Van Gogh's beloved Arles portraits of the postman Roulin's family, telling how Vincent became world-famous along the way.",
       "note": "Timed entry — book well ahead",
-      "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions"
+      "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Yayoi Kusama: Retrospective",
@@ -321,10 +415,16 @@
       "city": "Amsterdam",
       "start": "2026-09-11",
       "end": "2027-01-17",
-      "tags": ["retrospective", "immersive", "museumkaart"],
+      "tags": [
+        "retrospective",
+        "immersive"
+      ],
       "blurb": "Seven decades of dots, nets and mirror rooms in a full retrospective — Amsterdam's big autumn ticket, worth planning a trip around.",
       "note": "Opens 11 Sep — set a reminder",
-      "url": "https://www.stedelijk.nl/en/whats-on"
+      "url": "https://www.stedelijk.nl/en/whats-on",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "American Identities: David Levinthal & ChicanX",
@@ -333,10 +433,16 @@
       "city": "Amsterdam",
       "start": "2026-02-14",
       "end": "2026-09-02",
-      "tags": ["photography", "american", "museumkaart"],
+      "tags": [
+        "photography",
+        "american"
+      ],
       "blurb": "H'ART's America-focused year with the Smithsonian: Levinthal's staged toy tableaux alongside ChicanX portraiture, marking 250 years of Dutch-American ties.",
       "note": "Matisse takes over from September",
-      "url": "https://www.hartmuseum.nl/en/exhibitions/"
+      "url": "https://www.hartmuseum.nl/en/exhibitions/",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Martin Parr: Very Modern and Rather Ugly",
@@ -345,10 +451,15 @@
       "city": "Amsterdam",
       "start": "2026-04-03",
       "end": "2026-08-12",
-      "tags": ["photography", "museumkaart"],
+      "tags": [
+        "photography"
+      ],
       "blurb": "Five decades of Parr's saturated, deadpan chronicle of consumer culture and everyday ritual — his most iconic series in one landmark show.",
       "note": "Compact canal-house museum",
-      "url": "https://www.foam.org/events/martin-parr"
+      "url": "https://www.foam.org/events/martin-parr",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Foam Talent 2026",
@@ -357,10 +468,16 @@
       "city": "Amsterdam",
       "start": "2026-06-05",
       "end": "2026-08-28",
-      "tags": ["photography", "emerging", "museumkaart"],
+      "tags": [
+        "photography",
+        "emerging"
+      ],
       "blurb": "Fifteen artists chosen from nearly 3,000 submissions across 107 countries — Foam's annual scouting report on where photography is heading.",
       "note": "Same building as Martin Parr",
-      "url": "https://www.foam.org/events/foam-talent-2026"
+      "url": "https://www.foam.org/events/foam-talent-2026",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Eye(s) Open: New Perspectives on Colonial Film Heritage",
@@ -369,10 +486,16 @@
       "city": "Amsterdam",
       "start": "2026-04-03",
       "end": "2026-09-06",
-      "tags": ["film", "installation", "museumkaart"],
+      "tags": [
+        "film",
+        "installation"
+      ],
       "blurb": "Eleven artists respond to Eye's archive of some 2,000 colonial-era films from Indonesia and Suriname with ten newly commissioned works.",
       "note": "Across the IJ — free ferry from Centraal",
-      "url": "https://www.eyefilm.nl/en/exhibitions"
+      "url": "https://www.eyefilm.nl/en/exhibitions",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Rembrandt & Life",
@@ -381,10 +504,16 @@
       "city": "Amsterdam",
       "start": "2026-06-12",
       "end": "2026-08-30",
-      "tags": ["old master", "prints", "museumkaart"],
+      "tags": [
+        "old master",
+        "prints"
+      ],
       "blurb": "More than fifty prints tracing the whole of life, cradle to grave — shown in the house where Rembrandt lived and worked.",
       "note": "In Rembrandt's actual house",
-      "url": "https://www.rembrandthuis.nl/en/exhibition/rembrandt-life/"
+      "url": "https://www.rembrandthuis.nl/en/exhibition/rembrandt-life/",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Martine Gutierrez: Wunderkind",
@@ -393,10 +522,15 @@
       "city": "Amsterdam",
       "start": "2026-06-27",
       "end": "2026-10-18",
-      "tags": ["photography", "museumkaart"],
+      "tags": [
+        "photography"
+      ],
       "blurb": "The American artist's shape-shifting self-portraiture takes over two seventeenth-century canal houses on the Keizersgracht.",
       "note": "Amsterdam's photography jewel box",
-      "url": "https://huismarseille.nl/en/"
+      "url": "https://huismarseille.nl/en/",
+      "access": [
+        "museumkaart"
+      ]
     },
     {
       "title": "Lee Bul: From 1998 to Now",
@@ -405,7 +539,10 @@
       "city": "Hong Kong",
       "start": "2026-03-14",
       "end": "2026-08-09",
-      "tags": ["sculpture", "cyborg"],
+      "tags": [
+        "sculpture",
+        "cyborg"
+      ],
       "blurb": "A comprehensive survey of one of Asia's defining artists — cyborgs, crashed utopias and mirrored futures — co-organised with Leeum after a 105,000-visitor run in Seoul.",
       "note": "West Gallery",
       "url": "https://www.mplus.org.hk/en/exhibitions/lee-bul-from-1998-to-now/"
@@ -417,7 +554,10 @@
       "city": "Seoul",
       "start": "2025-05-01",
       "end": "2027-03-03",
-      "tags": ["collection", "survey"],
+      "tags": [
+        "collection",
+        "survey"
+      ],
       "blurb": "The national collection rehung as a sweeping account of Korean contemporary art — the best single-building primer in the city.",
       "note": "On view into 2027",
       "url": "https://www.mmca.go.kr/eng/"
@@ -429,7 +569,10 @@
       "city": "Venice",
       "start": "2026-05-09",
       "end": "2026-11-22",
-      "tags": ["biennale", "survey"],
+      "tags": [
+        "biennale",
+        "survey"
+      ],
       "blurb": "The 61st International Art Exhibition realises the late Koyo Kouoh's 'In Minor Keys' — 110 invited participants plus a hundred national pavilions across the city and Forte Marghera.",
       "note": "Allow two full days; comfortable shoes",
       "url": "https://www.labiennale.org/en/art/2026"
