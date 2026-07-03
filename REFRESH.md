@@ -20,6 +20,8 @@ in this folder and give it the prompt below (or just say "refresh the exhibition
 >   Reginald F. Lewis Museum, Maryland Center for History and Culture, Baltimore Museum
 >   of Industry, MICA and UMBC galleries, Creative Alliance.
 > - **Philadelphia (5–8):** PMA, Barnes, PAFA, ICA Penn, Fabric Workshop and Museum.
+> - **Buffalo (3–6):** Buffalo AKG Art Museum, Burchfield Penney Art Center, UB Art
+>   Galleries, Hallwalls Contemporary Arts Center, CEPA Gallery.
 > - **Amsterdam (10–15):** sweep the Museumkaart member museums — Rijksmuseum, Van Gogh
 >   Museum, Stedelijk, H'ART Museum, Foam, Eye Filmmuseum, Museum Het Rembrandthuis,
 >   Huis Marseille, Wereldmuseum, Het Scheepvaartmuseum, De Nieuwe Kerk, Amsterdam Museum,

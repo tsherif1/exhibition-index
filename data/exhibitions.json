@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-02",
-  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor covered in depth via per-city venue checklists; Amsterdam covered across Museumkaart member museums. Access facts (museumkaart, free) recorded in the 'access' field.",
+  "updated": "2026-07-03",
+  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC and the DC-Baltimore-Philadelphia corridor and Buffalo covered in depth via per-city venue checklists; Amsterdam covered across Museumkaart member museums. Access facts (museumkaart, free) recorded in the 'access' field.",
   "exhibitions": [
     {
       "title": "Whitney Biennial 2026",
@@ -843,6 +843,81 @@
       "blurb": "Original Shaker furniture and objects alongside contemporary artists channeling — and challenging — the sect's radical design legacy of community, labor, and equality.",
       "note": "ICA is always free",
       "url": "https://icaphila.org/exhibitions/the-shakers-a-world-in-the-making/"
+    },
+    {
+      "title": "One with Eternity: Yayoi Kusama",
+      "artist": "Yayoi Kusama",
+      "venue": "Buffalo AKG Art Museum",
+      "city": "Buffalo",
+      "start": "2025-10-02",
+      "end": "2026-07-06",
+      "tags": [
+        "installation",
+        "immersive"
+      ],
+      "blurb": "Three immersive installations honoring Kusama's singular vision, including two of her celebrated Infinity Mirror Rooms.",
+      "note": "Closes July 6 — timed entry for the mirror rooms",
+      "url": "https://buffaloakg.org/art/exhibitions/one-eternity-yayoi-kusama"
+    },
+    {
+      "title": "Let Us Gather in a Flourishing Way",
+      "artist": "Group show",
+      "venue": "Buffalo AKG Art Museum",
+      "city": "Buffalo",
+      "start": "2026-03-06",
+      "end": "2026-09-06",
+      "tags": [
+        "painting",
+        "latinx"
+      ],
+      "blurb": "Contemporary Latinx artists pushing at the traditions of painting — a cross-generational survey of material and cultural innovation.",
+      "note": "Bilingual English/Spanish presentation",
+      "url": "https://buffaloakg.org/art/exhibitions/let-us-gather-flourishing-way-english"
+    },
+    {
+      "title": "Ali Banisadr: Temple of the Mind",
+      "artist": "Ali Banisadr",
+      "venue": "Buffalo AKG Art Museum",
+      "city": "Buffalo",
+      "start": "2026-06-26",
+      "end": "2026-11-08",
+      "tags": [
+        "painting",
+        "collection intervention"
+      ],
+      "blurb": "The AKG's first-ever artist collection intervention — Banisadr threads his own work through the permanent galleries alongside his picks from Hiroshige to Goya.",
+      "note": "Hemicycle Gallery and throughout the Wilmers Building",
+      "url": "https://buffaloakg.org/art/exhibitions/ali-banisadr-temple-mind"
+    },
+    {
+      "title": "Kindred: Works from the Burchfield Penney and Seneca-Iroquois National Museum Collections",
+      "artist": "Group show",
+      "venue": "Burchfield Penney Art Center",
+      "city": "Buffalo",
+      "start": "2025-12-13",
+      "end": "2026-11-22",
+      "tags": [
+        "indigenous",
+        "collection"
+      ],
+      "blurb": "A collaboration with the Seneca-Iroquois National Museum on how artists preserve, reinterpret, and evolve cultural practices across both collections.",
+      "note": "On the Buffalo State campus",
+      "url": "https://burchfieldpenney.org/exhibitions/exhibition:kindred-works-from-the-burchfield-penney-art-center-and-seneca-iroquois-national-museum-collections/"
+    },
+    {
+      "title": "A VAST, tiny WORLD: Burchfield's Insects & Spiders",
+      "artist": "Charles E. Burchfield",
+      "venue": "Burchfield Penney Art Center",
+      "city": "Buffalo",
+      "start": "2026-05-08",
+      "end": "2026-10-18",
+      "tags": [
+        "watercolor",
+        "nature"
+      ],
+      "blurb": "Burchfield's lifelong fascination with the insect world, from field-journal studies to the vibrating, haloed creatures of his late watercolors.",
+      "note": "Drawn from the center's Burchfield archives",
+      "url": "https://burchfieldpenney.org/exhibitions/exhibition:a-vast-tiny-world/"
     },
     {
       "title": "World Press Photo Exhibition 2026",
