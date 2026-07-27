@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-21",
-  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC, the DC-Baltimore-Philadelphia corridor, and Buffalo covered in depth via per-city venue checklists; Amsterdam swept across Museumkaart member museums. Access facts (museumkaart, free) recorded in the 'access' field. Closed/expired shows dropped (Bodies and Souls at PAFA, Renoir and Love at Orsay, Michelangelo/Rodin at the Louvre); date corrections made where venue pages had updated since the last refresh (Revolution! at the Met, Joan Miró at the Kreeger, Ana Mendieta at Tate Modern); new verified shows added to replace closures and deepen Amsterdam and Philadelphia coverage.",
+  "updated": "2026-07-27",
+  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC, the DC-Baltimore-Philadelphia corridor, and Buffalo covered in depth via per-city venue checklists; Amsterdam swept across Museumkaart member museums. Access facts (museumkaart, free) recorded in the 'access' field. Closed/expired shows dropped (Bodies and Souls at PAFA, Renoir and Love at Orsay, Michelangelo/Rodin at the Louvre, and — in a same-day correction after the initial pass used the wrong current date — Ideas of Africa at MoMA, Paul Klee at the Jewish Museum, Of the Hills at the National Museum of Asian Art, Making Their Mark at NMWA, Let Them Speak at The Peale, and Football & Art at Museo Jumex); date corrections made where venue pages had updated since the last refresh (Revolution! at the Met, Joan Miró at the Kreeger, Ana Mendieta at Tate Modern); new verified shows added to replace closures and deepen Amsterdam and Philadelphia coverage.",
   "exhibitions": [
     {
       "title": "Whitney Biennial 2026",
@@ -39,16 +39,16 @@
       "url": "https://www.metmuseum.org/exhibitions/revolution"
     },
     {
-      "title": "Ideas of Africa: Portraiture and Political Imagination",
-      "artist": "Group show",
+      "title": "Frida and Diego: The Last Dream",
+      "artist": "Frida Kahlo, Diego Rivera",
       "venue": "Museum of Modern Art",
       "city": "New York",
-      "start": "2025-12-14",
-      "end": "2026-07-25",
-      "tags": ["photography", "portrait"],
-      "blurb": "A photography-led exploration of Pan-African subjectivity and solidarity, drawn largely from the 2019 Pigozzi gift of modern and contemporary African art.",
-      "note": "Final days — closes 25 Jul",
-      "url": "https://www.moma.org/calendar/exhibitions/5755"
+      "start": "2026-03-21",
+      "end": "2026-09-12",
+      "tags": ["modernism", "painting"],
+      "blurb": "Key works from MoMA's collection by Kahlo and Rivera, staged in an elaborate gallery design tied to the Met Opera's premiere of El Último Sueño de Frida y Diego.",
+      "note": "Replaces the now-closed Ideas of Africa in this tracker",
+      "url": "https://www.moma.org/calendar/exhibitions/5882"
     },
     {
       "title": "Greater New York 2026",
@@ -86,18 +86,6 @@
       "blurb": "The Morgan gathers Rembrandt's celebrated lion drawings and the world of the Dutch Republic around them — intimate sheets by a master observer of living things.",
       "note": "Pairs well with the restored Morgan library itself",
       "url": "https://www.themorgan.org/exhibitions/rembrandts-lions"
-    },
-    {
-      "title": "Paul Klee: Other Possible Worlds",
-      "artist": "Paul Klee",
-      "venue": "Jewish Museum",
-      "city": "New York",
-      "start": "2026-03-20",
-      "end": "2026-07-26",
-      "tags": ["painting", "modern"],
-      "blurb": "The first American museum show devoted to Klee's powerful late work — some one hundred paintings and drawings from his last, unsettling decade.",
-      "note": "Final weekend — closes 26 Jul",
-      "url": "https://thejewishmuseum.org/exhibitions/paul-klee-other-possible-worlds/"
     },
     {
       "title": "Modernity and Opulence: Women of the Wiener Werkstätte",
@@ -351,29 +339,17 @@
       "url": "https://africa.si.edu/exhibitions/here-pride-and-belonging-african-art"
     },
     {
-      "title": "Of the Hills: Pahari Paintings from India's Himalayan Kingdoms",
-      "artist": "Group show",
+      "title": "Saodat Ismailova: Melted into the Sun",
+      "artist": "Saodat Ismailova",
       "venue": "National Museum of Asian Art",
       "city": "Washington, DC",
-      "start": "2026-04-18",
-      "end": "2026-07-26",
-      "tags": ["painting", "historical"],
+      "start": "2026-06-13",
+      "end": "2026-11-29",
+      "tags": ["film", "installation"],
       "access": ["free"],
-      "blurb": "Forty-eight rare Pahari court paintings made for Hindu kings in India's Himalayan foothills between the 1620s and 1830s, many shown publicly for the first time.",
-      "note": "Closes late July; free, like all Smithsonian museums",
-      "url": "https://asia.si.edu/whats-on/exhibitions/of-the-hills/"
-    },
-    {
-      "title": "Making Their Mark: Works from the Shah Garg Collection",
-      "artist": "Group show, curated by Cecilia Alemani",
-      "venue": "National Museum of Women in the Arts",
-      "city": "Washington, DC",
-      "start": "2026-02-27",
-      "end": "2026-07-26",
-      "tags": ["contemporary", "women artists"],
-      "blurb": "Some eighty works by seventy major contemporary artists — Julie Mehretu, Faith Ringgold, Joan Mitchell, and Kara Walker among them.",
-      "note": "Ticketed general admission, not free; final week",
-      "url": "https://nmwa.org/exhibitions/making-their-mark-works-from-the-shah-garg-collection/"
+      "blurb": "The Uzbek artist's first major US museum presentation weaves film and installation around Central Asian myth, memory, and landscape.",
+      "note": "Arthur M. Sackler Gallery, Gallery 28; replaces the now-closed Of the Hills",
+      "url": "https://asia.si.edu/whats-on/exhibitions/saodat-ismailova-melted-into-the-sun/"
     },
     {
       "title": "Burnished: Pueblo Pottery",
@@ -499,17 +475,17 @@
       "url": "https://thepeale.org/the-active-power-of-touch/"
     },
     {
-      "title": "Let Them Speak: Their Beauty, Our Hearts",
-      "artist": "Tyrone West, Xavier Hill, Donnell Rochester, Adiena Britt",
+      "title": "Trust the Paint: Paintings, Works on Paper",
+      "artist": "Francine Halvorsen",
       "venue": "The Peale",
       "city": "Baltimore",
-      "start": "2026-06-20",
-      "end": "2026-07-26",
-      "tags": ["mixed media", "community"],
+      "start": "2026-06-25",
+      "end": "2026-08-16",
+      "tags": ["painting", "works on paper"],
       "access": ["free"],
-      "blurb": "Portraits, shoe art, fashion, and fine art from four Baltimore artists, organized with the West Coalition.",
-      "note": "Free admission; closing this weekend",
-      "url": "https://thepeale.org/let-them-speak-their-beauty-our-hearts/"
+      "blurb": "A survey of Halvorsen's paintings and works on paper, shown in the Latrobe and Garden View Galleries.",
+      "note": "Free admission; replaces the now-closed Let Them Speak",
+      "url": "https://thepeale.org/trust-the-paint-paintings-works-on-paper-2/"
     },
     {
       "title": "A Nation of Artists",
@@ -1086,18 +1062,6 @@
       "blurb": "Sixteen legendary football objects, from Maradona's 1986 jersey to Pelé's 1970 boots, timed to World Cup 2026.",
       "note": "Pairs with Football & Art at the same museum",
       "url": "https://www.fundacionjumex.org/en/explora/publicaciones/828-objetos-de-leyenda-momentos-iconicos-en-la-historia-del-futbol"
-    },
-    {
-      "title": "Football & Art: A Shared Emotion",
-      "artist": "60 artists",
-      "venue": "Museo Jumex",
-      "city": "Mexico City",
-      "start": "2026-03-28",
-      "end": "2026-07-26",
-      "tags": ["contemporary", "world cup"],
-      "blurb": "Around one hundred works by sixty artists exploring football's cultural and emotional dimensions ahead of World Cup 2026.",
-      "note": "Closes this weekend",
-      "url": "https://www.fundacionjumex.org/en/exposiciones/591-futbol-y-arte-esa-misma-emocion"
     },
     {
       "title": "Before the Eclipse: Archaeologies of Art in Mexico",
