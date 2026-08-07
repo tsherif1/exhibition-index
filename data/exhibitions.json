@@ -1,6 +1,6 @@
 {
-  "updated": "2026-07-27",
-  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. NYC, the DC-Baltimore-Philadelphia corridor, and Buffalo covered in depth via per-city venue checklists; Amsterdam swept across Museumkaart member museums. Access facts (museumkaart, free) recorded in the 'access' field. Closed/expired shows dropped (Bodies and Souls at PAFA, Renoir and Love at Orsay, Michelangelo/Rodin at the Louvre, and — in a same-day correction after the initial pass used the wrong current date — Ideas of Africa at MoMA, Paul Klee at the Jewish Museum, Of the Hills at the National Museum of Asian Art, Making Their Mark at NMWA, Let Them Speak at The Peale, and Football & Art at Museo Jumex); date corrections made where venue pages had updated since the last refresh (Revolution! at the Met, Joan Miró at the Kreeger, Ana Mendieta at Tate Modern); new verified shows added to replace closures and deepen Amsterdam and Philadelphia coverage.",
+  "updated": "2026-08-07",
+  "method": "Web research against museum sites and listings press; dates verified against official or ticketing pages where possible. Closed shows dropped (Carol Bove at the Guggenheim, Sophie Rivera at El Museo del Barrio, Danh Vo and Beyond the Manosphere at the Stedelijk, Rising Up: Rocky at PMA, Pascale Marthine Tayou at Pinacoteca, Ruffles and Ribbons at the Frick); replaced or supplemented with newly verified shows (Guggenheim Pop, Octopus & Others at El Museo del Barrio, Macunaíma é Duwid at Pinacoteca, Beneath the Surface at the National Gallery of Art, Seeing the Essential at the BMA, Ragnar Kjartansson at Buffalo AKG). A Stedelijk replacement was skipped after conflicting end dates across sources couldn't be resolved to a verified date; a Frick replacement was skipped for lack of a confirmed upcoming show.",
   "exhibitions": [
     {
       "title": "Whitney Biennial 2026",
@@ -15,16 +15,16 @@
       "url": "https://whitney.org/exhibitions/2026-biennial"
     },
     {
-      "title": "Carol Bove",
-      "artist": "Carol Bove",
+      "title": "Guggenheim Pop: 1960 to Now",
+      "artist": "Warhol, Lichtenstein, Oldenburg, Hamilton, Chryssa, and others",
       "venue": "Solomon R. Guggenheim Museum",
       "city": "New York",
-      "start": "2026-03-05",
-      "end": "2026-08-02",
-      "tags": ["sculpture", "retrospective"],
-      "blurb": "Bove's first-ever museum survey fills the entire Frank Lloyd Wright rotunda — twenty-five years of crushed-steel 'collage sculptures' running in reverse chronology down the spiral.",
-      "note": "Closing very soon — curated by Katherine Brinson",
-      "url": "https://www.guggenheim.org/exhibition/carol-bove"
+      "start": "2026-06-05",
+      "end": "2027-01-10",
+      "tags": ["pop art", "collection", "contemporary"],
+      "blurb": "Pop art from the Guggenheim's collection spirals up the rotunda alongside a Kusama Infinity Mirror Room and recent acquisitions that interrogate Pop's legacy.",
+      "note": "Spans the full rotunda; go on a weekday morning to beat crowds at the Infinity Mirror Room.",
+      "url": "https://www.guggenheim.org/exhibition/guggenheim-pop"
     },
     {
       "title": "Revolution!",
@@ -112,16 +112,16 @@
       "url": "https://www.icp.org/exhibitions/yves-saint-laurent-and-photography"
     },
     {
-      "title": "Sophie Rivera: Double Exposures",
-      "artist": "Sophie Rivera",
+      "title": "Octopus & Others: Acts of Collaboration & Poetics",
+      "artist": "Group exhibition, inspired by Papo Colo",
       "venue": "El Museo del Barrio",
       "city": "New York",
-      "start": "2026-04-23",
-      "end": "2026-08-02",
-      "tags": ["photography", "portrait"],
-      "blurb": "The Nuyorican photographer's probing portraits and experiments in doubled imagery, reclaiming an under-sung figure of New York photography.",
-      "note": "Closes 2 Aug",
-      "url": "https://elmuseo.org/exhibition/sophie-rivera-double-exposures/"
+      "start": "2026-08-06",
+      "end": "2026-11-15",
+      "tags": ["latinx art", "performance", "collaboration"],
+      "blurb": "Revisits Exit Art co-founder Papo Colo's 1982 courtyard performance Octopus: An Act of Sculpture as a launchpad for new collaborative and poetic works by contemporary artists.",
+      "note": "Just opened; check the museum's site for related courtyard programming.",
+      "url": "https://elmuseo.org/exhibitions/"
     },
     {
       "title": "Anicka Yi: Message from the Mud",
@@ -158,18 +158,6 @@
       "blurb": "The North American debut of this retrospective gathers more than 140 haute couture creations by the Dutch designer alongside the scientific and artistic references that inspired them.",
       "note": "Separately ticketed, timed entry recommended",
       "url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen"
-    },
-    {
-      "title": "Ruffles and Ribbons: Fashion Plates from the Time of Marie Antoinette",
-      "artist": "Various, after Gallerie des modes et costumes français",
-      "venue": "The Frick Collection",
-      "city": "New York",
-      "start": "2026-04-01",
-      "end": "2026-08-03",
-      "tags": ["prints", "fashion"],
-      "blurb": "Two dozen hand-colored engravings of late-eighteenth-century French fashion, a small Cabinet installation shown alongside the Frick's Gainsborough.",
-      "note": "Included with general admission; closing very soon",
-      "url": "https://www.frick.org/exhibitions/ruffles"
     },
     {
       "title": "Noguchi's New York",
@@ -388,6 +376,19 @@
       "url": "https://www.phillipscollection.org/exhibitions/upcoming"
     },
     {
+      "title": "Beneath the Surface: Mining and American Photography",
+      "artist": "Group exhibition",
+      "venue": "National Gallery of Art",
+      "city": "Washington, DC",
+      "start": "2026-05-23",
+      "end": "2026-08-23",
+      "tags": ["photography", "landscape", "history"],
+      "access": ["free"],
+      "blurb": "The first exhibition to trace photography's 185-year relationship with mining in America, from 19th-century survey pictures to contemporary work confronting the costs of extraction.",
+      "note": "Free general admission; closes soon so plan an August visit.",
+      "url": "https://www.nga.gov/exhibitions/beneath-surface-mining-american-photography"
+    },
+    {
       "title": "Fratino and Matisse: To See This Light Again",
       "artist": "Louis Fratino, Henri Matisse",
       "venue": "Baltimore Museum of Art",
@@ -460,6 +461,19 @@
       "blurb": "De Nieves' shimmering beaded figures and stained-glass-like panels transform the BMA's East Lobby into a processional fantasy, on long-term view.",
       "note": "East Lobby commission",
       "url": "https://artbma.org/about/press/release/bma-debuts-raul-de-nieves-and-imagine-you-are-here-meyerhoff-becker-biennial-commission"
+    },
+    {
+      "title": "Seeing the Essential: The Sigmund M. and Mary B. Hyman Collection of American Art",
+      "artist": "Various artists; collection of Sigmund M. and Mary B. Hyman",
+      "venue": "Baltimore Museum of Art",
+      "city": "Baltimore",
+      "start": "2026-05-10",
+      "end": "2026-09-13",
+      "tags": ["american art", "collection", "photography"],
+      "access": ["free"],
+      "blurb": "A Baltimore couple's six-decade collection of American art comes to the BMA, tracing mid-century to contemporary works chosen for what the collectors called \"the essential.\"",
+      "note": "Free admission, in the BMA's American wing.",
+      "url": "https://artbma.org/exhibition/seeing-the-essential-the-sigmund-m-and-mary-b-hyman-collection-of-american-art/"
     },
     {
       "title": "The Active Power of Touch",
@@ -561,18 +575,6 @@
       "url": "https://www.philamuseum.org/exhibitions/workshop-of-the-world"
     },
     {
-      "title": "Rising Up: Rocky and the Making of Monuments",
-      "artist": "Group show",
-      "venue": "Philadelphia Museum of Art",
-      "city": "Philadelphia",
-      "start": "2026-04-25",
-      "end": "2026-08-02",
-      "tags": ["public art", "film"],
-      "blurb": "Ties the fiftieth anniversary of Rocky to the history and meaning of public monuments in the city.",
-      "note": "Closes early August",
-      "url": "https://www.philamuseum.org/exhibitions/rising-up-rocky"
-    },
-    {
       "title": "Jesse Krimes: Elegy Quilts",
       "artist": "Jesse Krimes",
       "venue": "Fabric Workshop and Museum",
@@ -607,6 +609,18 @@
       "blurb": "The AKG's first-ever artist collection intervention — Banisadr threads his own work through the permanent galleries alongside his picks from Hiroshige to Goya.",
       "note": "Hemicycle Gallery and throughout the Wilmers Building",
       "url": "https://buffaloakg.org/art/exhibitions/ali-banisadr-temple-mind"
+    },
+    {
+      "title": "Ragnar Kjartansson: Politics of the Obvious",
+      "artist": "Ragnar Kjartansson",
+      "venue": "Buffalo AKG Art Museum",
+      "city": "Buffalo",
+      "start": "2026-09-03",
+      "end": "2027-01-31",
+      "tags": ["video art", "installation", "performance"],
+      "blurb": "Six immersive video and performance installations by the Icelandic artist, half making their US museum debut, turning familiar gestures into extended meditations on aspiration and precarity.",
+      "note": "Several works are durational video loops; budget extra time to sit with them.",
+      "url": "https://buffaloakg.org/art/exhibitions/ragnar-kjartansson-politics-obvious"
     },
     {
       "title": "Kindred: Works from the Burchfield Penney and Seneca-Iroquois National Museum Collections",
@@ -696,32 +710,6 @@
       "blurb": "Seven decades of dots, nets and mirror rooms in a full retrospective — Amsterdam's big autumn ticket, worth planning a trip around.",
       "note": "Opens 11 Sep — set a reminder",
       "url": "https://www.stedelijk.nl/en/exhibitions/yayoi-kusama-en"
-    },
-    {
-      "title": "Danh Vo: πνεῦμα",
-      "artist": "Danh Vo",
-      "venue": "Stedelijk Museum",
-      "city": "Amsterdam",
-      "start": "2026-02-14",
-      "end": "2026-08-02",
-      "tags": ["contemporary", "installation"],
-      "access": ["museumkaart"],
-      "blurb": "Vo's choreography of collected objects, classical fragments, and personal history returns to the Stedelijk after his 2008 debut there.",
-      "note": "Closes Aug 2 — visit soon",
-      "url": "https://www.stedelijk.nl/en/exhibitions/danh-vo-2"
-    },
-    {
-      "title": "Beyond the Manosphere: Masculinities Today",
-      "artist": "Group show",
-      "venue": "Stedelijk Museum",
-      "city": "Amsterdam",
-      "start": "2026-04-17",
-      "end": "2026-08-02",
-      "tags": ["contemporary", "group show"],
-      "access": ["museumkaart"],
-      "blurb": "Thirty-five artists across generations examine masculinity as performance, power, and contested identity, countering online 'manosphere' rhetoric.",
-      "note": "Closes Aug 2, same day as Danh Vo — a good double bill",
-      "url": "https://www.stedelijk.nl/en/digdeeper/beyond-the-manosphere-masculinities-today-en"
     },
     {
       "title": "Kho Liang Ie: Mid-Century Modernist",
@@ -1088,16 +1076,16 @@
       "url": "https://masp.org.br/exposicoes/carolina-caycedo-confluencias"
     },
     {
-      "title": "Pascale Marthine Tayou: Knockout! (Nocaute)",
-      "artist": "Pascale Marthine Tayou",
+      "title": "Macunaíma é Duwid",
+      "artist": "Curated by Gustavo Caboco",
       "venue": "Pinacoteca de São Paulo",
       "city": "São Paulo",
-      "start": "2026-03-07",
-      "end": "2026-08-02",
-      "tags": ["installation", "contemporary"],
-      "blurb": "The Cameroonian artist's first institutional show in Brazil occupies all seven Pina Luz galleries.",
-      "note": "Closes early August; free entry Saturdays and second Sunday of the month",
-      "url": "https://pinacoteca.org.br/en/programacao/exposicoes/pascale-marthine-tayou-knockout/"
+      "start": "2026-03-28",
+      "end": "2026-09-13",
+      "tags": ["indigenous art", "modernism", "curatorial"],
+      "blurb": "Curator Gustavo Caboco reframes Mário de Andrade's modernist novel Macunaíma through Indigenous cosmologies, confronting the book's legacy a century after publication.",
+      "note": "Housed at the Pina Estação building, a short walk from the main Pina Luz galleries.",
+      "url": "https://pinacoteca.org.br/en/programacao/exposicoes/macunaima-e-duwid/"
     },
     {
       "title": "Biennale Arte 2026: In Minor Keys",
