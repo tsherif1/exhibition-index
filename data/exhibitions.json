@@ -1,6 +1,6 @@
 {
-  "updated": "2026-09-29",
-  "method": "Web research against museum sites and reputable listings press (Sept 2026); every title, venue, and full date range verified against an official page or corroborated across multiple sources. Ron Mueck at the Mori Art Museum closed (Sep 23) and was dropped. Added newly verified fall openings: Noguchi Museum's Akari anniversary show, ICP's Fire Becomes Spirit, the Neue Galerie's 25th Anniversary Exhibition, AVAM's Flaunt, the Reginald F. Lewis Museum's Lines We Cross, Creative Alliance's Patricia Massey Momentum Award show, ICA Philadelphia's fall season (Condition of Being Near, Wilmer Wilson IV), Het Scheepvaartmuseum's Crimson Gilt, Tate Britain's The 90s, Whitechapel's Cecilia Vicuna, Serpentine's Justin Caguiat, Palais de Tokyo's Toi et ta bande, Gropius Bau's Schlingensief retrospective, SeMA's Lynn Hershman Leeson, Museo Jumex's Alvaro Urbano, MASP's Curruchich and Soto shows, and two Tokyo loan exhibitions (Louvre Renaissance masterpieces at the National Art Center, Cincinnati Art Museum loans at Ueno Royal Museum). Several new fall shows (Dia Beacon's Haegue Yang, Bronx Museum's fall trio, the Renwick's Handwork, National Museum of African Art's New & Now, Rubell Museum DC's reinstallation) were confirmed to be opening but skipped for now because no official closing date has been published yet.",
+  "updated": "2026-10-06",
+  "method": "Web research against museum sites and reputable listings press (early Oct 2026); every title, venue, and full date range verified against an official page or corroborated across multiple sources. Dropped as closed: Rembrandt's Lions: Art and Exile in the Dutch Republic; Carolina Caycedo: Confluências. Corrected the National Portrait Gallery's Photographic Memory to its published run of Nov 14, 2026 to Nov 7, 2027. Added newly verified shows: New Museum's The Bowery: Devil's Mile, MoMA's Nilima Sheikh and The Surrealist Book, the Morgan's Johan Tobias Sergel, the Hirshhorn's Carlotta Corpron, SAAM's Much Here Is Beautiful, the National Museum of Asian Art's Adorned in Gold, the Walters' Luxury & Loss, the Rijksmuseum's Worn, and Maurizio Cattelan at the Neue Nationalgalerie. Still skipped for lack of a published closing date: Dia Beacon's Haegue Yang: Through (opens Oct 10), the Renwick's Handwork (opens Nov 13), MoMA PS1's Teresa Margolles, and the Bronx Museum and Rubell Museum DC fall programs.",
   "exhibitions": [
     {
       "title": "Guggenheim Pop: 1960 to Now",
@@ -9,7 +9,11 @@
       "city": "New York",
       "start": "2026-06-05",
       "end": "2027-01-10",
-      "tags": ["pop art", "collection", "contemporary"],
+      "tags": [
+        "pop art",
+        "collection",
+        "contemporary"
+      ],
       "blurb": "Pop art from the Guggenheim's collection spirals up the rotunda alongside a Kusama Infinity Mirror Room and recent acquisitions that interrogate Pop's legacy.",
       "note": "Rotunda closes when Taryn Simon takes it over on Sep 18; the Pop galleries stay open.",
       "url": "https://www.guggenheim.org/exhibition/guggenheim-pop"
@@ -21,22 +25,14 @@
       "city": "New York",
       "start": "2026-09-18",
       "end": "2027-03-14",
-      "tags": ["photography", "installation", "conceptual"],
+      "tags": [
+        "photography",
+        "installation",
+        "conceptual"
+      ],
       "blurb": "The first rotunda takeover by a photography-based artist fills the spiral with new photographs, text, video, and sculpture in a single interactive installation.",
       "note": "Billed as the largest debut of new work ever staged at the Guggenheim.",
       "url": "https://www.guggenheim.org/exhibition/taryn-simon"
-    },
-    {
-      "title": "Rembrandt's Lions: Art and Exile in the Dutch Republic",
-      "artist": "Rembrandt van Rijn",
-      "venue": "Morgan Library & Museum",
-      "city": "New York",
-      "start": "2026-06-26",
-      "end": "2026-10-04",
-      "tags": ["old master", "works on paper"],
-      "blurb": "The Morgan gathers Rembrandt's celebrated lion drawings and the world of the Dutch Republic around them - intimate sheets by a master observer of living things.",
-      "note": "Final weeks; closes Oct 4.",
-      "url": "https://www.themorgan.org/exhibitions/rembrandts-lions"
     },
     {
       "title": "Modernity and Opulence: Women of the Wiener Werkstätte",
@@ -45,7 +41,10 @@
       "city": "New York",
       "start": "2026-07-17",
       "end": "2026-11-15",
-      "tags": ["design", "modern"],
+      "tags": [
+        "design",
+        "modern"
+      ],
       "blurb": "For the first time, the lasting contributions of the Jewish women who shaped the Wiener Werkstätte's modernist design language, as artists and as patrons.",
       "note": "Organized with Vienna's MAK museum.",
       "url": "https://thejewishmuseum.org/exhibitions/women-of-the-wiener-werkstatte/"
@@ -57,7 +56,11 @@
       "city": "New York",
       "start": "2026-08-06",
       "end": "2026-11-15",
-      "tags": ["latinx art", "performance", "collaboration"],
+      "tags": [
+        "latinx art",
+        "performance",
+        "collaboration"
+      ],
       "blurb": "Revisits Exit Art co-founder Papo Colo's 1982 courtyard performance Octopus: An Act of Sculpture as a launchpad for new collaborative and poetic works by contemporary artists.",
       "note": "Anchored by a recent gift of panels from Colo's original Octopus.",
       "url": "https://elmuseo.org/exhibitions/"
@@ -69,7 +72,11 @@
       "city": "New York",
       "start": "2026-09-10",
       "end": "2027-01-10",
-      "tags": ["chicano art", "queer art", "mail art"],
+      "tags": [
+        "chicano art",
+        "queer art",
+        "mail art"
+      ],
       "blurb": "The first major survey of Teddy Sandoval (1949-1995), a Los Angeles artist whose ceramics, mail art, and painting probed gender and identity with humor and political nerve.",
       "note": "Traveled from the Williams College Museum of Art.",
       "url": "https://elmuseo.org/exhibitions/"
@@ -81,7 +88,10 @@
       "city": "New York",
       "start": "2026-05-17",
       "end": "2026-11-09",
-      "tags": ["installation", "land art"],
+      "tags": [
+        "installation",
+        "land art"
+      ],
       "blurb": "Yi's first large-scale outdoor project stages a fictional archaeological dig - twenty living Winogradsky columns culturing Storm King's own pond mud into slow paintings.",
       "note": "Storm King, New Windsor - Hudson Valley day trip.",
       "url": "https://stormking.org/"
@@ -93,7 +103,10 @@
       "city": "New York",
       "start": "2026-05-16",
       "end": "2026-12-06",
-      "tags": ["fashion", "design"],
+      "tags": [
+        "fashion",
+        "design"
+      ],
       "blurb": "The North American debut of this retrospective gathers more than 140 haute couture creations by the Dutch designer alongside the scientific and artistic references that inspired them.",
       "note": "Separately ticketed, timed entry recommended.",
       "url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen"
@@ -105,7 +118,11 @@
       "city": "New York",
       "start": "2026-10-03",
       "end": "2027-01-31",
-      "tags": ["manga", "illustration", "popular culture"],
+      "tags": [
+        "manga",
+        "illustration",
+        "popular culture"
+      ],
       "blurb": "Original artwork spanning the history of manga makes its East Coast debut in the Museum's Great Hall, with pages tied to Inuyasha, JoJo's Bizarre Adventure, Ooku, and One Piece.",
       "note": "Separately ticketed; expect crowds on weekends.",
       "url": "https://www.brooklynmuseum.org/exhibitions"
@@ -117,7 +134,10 @@
       "city": "New York",
       "start": "2026-10-02",
       "end": "2027-04-18",
-      "tags": ["modernism", "collection"],
+      "tags": [
+        "modernism",
+        "collection"
+      ],
       "blurb": "More than fifty modern European works from the late 19th to mid-20th century, drawn from the celebrated collection of Henry and Rose Pearlman.",
       "note": "Includes a strong group of Cézanne watercolors.",
       "url": "https://www.brooklynmuseum.org/exhibitions"
@@ -129,7 +149,10 @@
       "city": "New York",
       "start": "2026-03-18",
       "end": "2027-01-03",
-      "tags": ["collection", "sculpture"],
+      "tags": [
+        "collection",
+        "sculpture"
+      ],
       "blurb": "Seventy masterworks in bronze, ceramic, and metal assembled by John D. Rockefeller 3rd, marking Asia Society's 70th anniversary.",
       "note": "Museum is free on Fridays.",
       "url": "https://asiasociety.org/new-york/exhibitions/buddha-and-shiva-lotus-and-dragon-celebrating-70-years-asia-society-and-rockefeller-legacy"
@@ -141,7 +164,10 @@
       "city": "New York",
       "start": "2026-10-11",
       "end": "2027-05-10",
-      "tags": ["pop art", "retrospective"],
+      "tags": [
+        "pop art",
+        "retrospective"
+      ],
       "blurb": "More than 130 works trace Lichtenstein from the early 1940s to the 1990s, reframing him around copying, enlargement, and circulation rather than Pop-era surface.",
       "note": "Curated by Meg Onli with guest curator Alex Da Corte; includes a recreation of his 1962 breakout show.",
       "url": "https://whitney.org/exhibitions/lichtenstein"
@@ -153,7 +179,11 @@
       "city": "New York",
       "start": "2026-08-22",
       "end": "2027-01-10",
-      "tags": ["self-taught", "works on paper", "visionary"],
+      "tags": [
+        "self-taught",
+        "works on paper",
+        "visionary"
+      ],
       "blurb": "The visionary North Carolina artist returns to the Whitney more than fifty years after it organized her first solo show, with densely patterned drawings of a paradise garden.",
       "note": "Eighth-floor galleries.",
       "url": "https://whitney.org/exhibitions"
@@ -165,7 +195,10 @@
       "city": "New York",
       "start": "2026-09-19",
       "end": "2027-01-18",
-      "tags": ["installation", "contemporary"],
+      "tags": [
+        "installation",
+        "contemporary"
+      ],
       "blurb": "The first solo museum presentation of the Senegalese American artist is an immersive installation examining nuclear power and the African resource extraction that fed it.",
       "note": "First-floor gallery, free with the lobby.",
       "url": "https://whitney.org/exhibitions"
@@ -177,7 +210,10 @@
       "city": "New York",
       "start": "2026-10-15",
       "end": "2027-01-18",
-      "tags": ["renaissance", "sculpture"],
+      "tags": [
+        "renaissance",
+        "sculpture"
+      ],
       "blurb": "The first exhibition on Siena as a center of Renaissance bronze, bringing together some forty works, most never before shown outside Tuscany.",
       "note": "In the newly renovated Frick's special-exhibition galleries.",
       "url": "https://www.frick.org/exhibitions"
@@ -189,7 +225,10 @@
       "city": "New York",
       "start": "2026-10-04",
       "end": "2027-01-31",
-      "tags": ["abstract expressionism", "painting"],
+      "tags": [
+        "abstract expressionism",
+        "painting"
+      ],
       "blurb": "The first major New York show devoted to either artist in more than two decades sets the two painters' careers side by side as a continuous conversation.",
       "note": "The Tisch Galleries; timed tickets with admission.",
       "url": "https://www.metmuseum.org/exhibitions/krasner-and-pollock-past-continuous"
@@ -201,7 +240,10 @@
       "city": "New York",
       "start": "2026-10-25",
       "end": "2027-02-27",
-      "tags": ["sculpture", "modernism"],
+      "tags": [
+        "sculpture",
+        "modernism"
+      ],
       "blurb": "Brancusi's sculpture seen through the lens of his Paris studio, with rarely lent works from the Centre Pompidou joining MoMA's deep holdings.",
       "note": "Special exhibition ticket required.",
       "url": "https://press.moma.org/exhibition/brancusi-the-artist-and-his-studio/"
@@ -213,8 +255,13 @@
       "city": "Washington, DC",
       "start": "2026-06-06",
       "end": "2026-12-06",
-      "tags": ["american", "survey"],
-      "access": ["free"],
+      "tags": [
+        "american",
+        "survey"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "More than thirty works from the National Gallery's collection trace how artists have saluted, reworked, and interrogated the flag.",
       "note": "East Building Concourse; free, no passes.",
       "url": "https://www.nga.gov/exhibitions/american-icon-us-flag-art"
@@ -226,8 +273,14 @@
       "city": "Washington, DC",
       "start": "2026-04-11",
       "end": "2026-12-06",
-      "tags": ["film", "photography", "indigenous"],
-      "access": ["free"],
+      "tags": [
+        "film",
+        "photography",
+        "indigenous"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "Through photographs, poems, and film, Hopinka connects family, language, place, and lived Indigenous experience.",
       "note": "West Building, Ground Floor, Gallery G22; free.",
       "url": "https://www.nga.gov/exhibitions/sky-hopinka"
@@ -239,8 +292,13 @@
       "city": "Washington, DC",
       "start": "2025-04-04",
       "end": "2027-01-03",
-      "tags": ["painting", "conceptual"],
-      "access": ["free"],
+      "tags": [
+        "painting",
+        "conceptual"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "New and recent paintings plus a video work wrapping the second-floor inner ring - Pendleton's first Washington solo, mounted for the museum's 50th anniversary.",
       "note": "On view into 2027; free, like all Smithsonian museums.",
       "url": "https://hirshhorn.si.edu/exhibitions/adam-pendleton-love-queen/"
@@ -252,8 +310,13 @@
       "city": "Washington, DC",
       "start": "2026-02-13",
       "end": "2027-01-03",
-      "tags": ["installation", "contemporary"],
-      "access": ["free"],
+      "tags": [
+        "installation",
+        "contemporary"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "A monumental new commission: visitors walk among the fantastical remains of ancient creatures, Cave's excavation of American memory at a fraught Smithsonian moment.",
       "note": "New commission for SAAM; free.",
       "url": "https://americanart.si.edu/exhibitions/nick-cave"
@@ -263,12 +326,17 @@
       "artist": "Collection survey",
       "venue": "National Portrait Gallery",
       "city": "Washington, DC",
-      "start": "2026-05-15",
-      "end": "2027-02-28",
-      "tags": ["photography", "collection"],
-      "access": ["free"],
+      "start": "2026-11-14",
+      "end": "2027-11-07",
+      "tags": [
+        "photography",
+        "collection"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "A hundred-plus works from daguerreotype to digital, marking fifty years of the museum collecting the photographed face.",
-      "note": "Semiquincentennial season; free.",
+      "note": "Opens November 14 in the second-floor west galleries; free, open daily 11:30 to 7.",
       "url": "https://npg.si.edu/exhibition/photographic-memory-fifty-years-collecting"
     },
     {
@@ -278,8 +346,13 @@
       "city": "Washington, DC",
       "start": "2026-06-26",
       "end": "2027-06-06",
-      "tags": ["history", "americana"],
-      "access": ["free"],
+      "tags": [
+        "history",
+        "americana"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "Portraits and objects celebrate the inventors tied to the Portrait Gallery's historic home, once the United States Patent Office building.",
       "note": "First Floor East galleries; free.",
       "url": "https://npg.si.edu/whats-on/current-exhibitions"
@@ -291,8 +364,13 @@
       "city": "Washington, DC",
       "start": "2026-06-13",
       "end": "2026-11-29",
-      "tags": ["film", "installation"],
-      "access": ["free"],
+      "tags": [
+        "film",
+        "installation"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "The Uzbek artist's first major US museum presentation weaves film and installation around Central Asian myth, memory, and landscape.",
       "note": "Arthur M. Sackler Gallery, Gallery 28; free.",
       "url": "https://asia.si.edu/whats-on/exhibitions/saodat-ismailova-melted-into-the-sun/"
@@ -304,8 +382,13 @@
       "city": "Washington, DC",
       "start": "2026-09-26",
       "end": "2027-01-18",
-      "tags": ["islamic art", "loans"],
-      "access": ["free"],
+      "tags": [
+        "islamic art",
+        "loans"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "Twenty-six works from the Louvre's Department of Islamic Art, from ceramics and metalwork to manuscript pages, on a rare visit to Washington.",
       "note": "Free general admission.",
       "url": "https://asia.si.edu/whats-on/"
@@ -317,7 +400,11 @@
       "city": "Washington, DC",
       "start": "2026-09-18",
       "end": "2027-01-17",
-      "tags": ["quilts", "craft", "african american art"],
+      "tags": [
+        "quilts",
+        "craft",
+        "african american art"
+      ],
       "blurb": "More than eighty quilts trace the Second Great Migration west, blending record-keeping, resourcefulness, and improvisation.",
       "note": "Ticketed general admission, not free.",
       "url": "https://nmwa.org/whats-on/exhibitions/"
@@ -329,7 +416,10 @@
       "city": "Washington, DC",
       "start": "2026-10-24",
       "end": "2027-01-24",
-      "tags": ["painting", "modernism"],
+      "tags": [
+        "painting",
+        "modernism"
+      ],
       "blurb": "About ninety works follow the friendship of three painters and the coastal summers in Gloucester, Massachusetts, that shaped their art.",
       "note": "Ticketed general admission.",
       "url": "https://www.phillipscollection.org/press/phillips-collection-announces-2026-27-exhibition-schedule"
@@ -341,7 +431,10 @@
       "city": "Baltimore",
       "start": "2026-03-18",
       "end": "2026-10-25",
-      "tags": ["painting", "works on paper"],
+      "tags": [
+        "painting",
+        "works on paper"
+      ],
       "blurb": "A focused chapter of the BMA's unrivalled Matisse holdings, pairing portraiture with poetry inspired by his 1930 Martinique visit.",
       "note": "Cone Collection country; last of the BMA's 2026 Matisse trio still on view.",
       "url": "https://artbma.org/press-release/bma-presents-little-known-matisse-illustrations-inspired-by-martinique/"
@@ -353,8 +446,13 @@
       "city": "Baltimore",
       "start": "2023-11-18",
       "end": "2027-01-03",
-      "tags": ["installation", "beadwork"],
-      "access": ["free"],
+      "tags": [
+        "installation",
+        "beadwork"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "De Nieves' shimmering beaded figures and stained-glass-like panels transform the BMA's East Lobby into a processional fantasy, on long-term view.",
       "note": "East Lobby commission; free admission.",
       "url": "https://artbma.org/about/press/release/bma-debuts-raul-de-nieves-and-imagine-you-are-here-meyerhoff-becker-biennial-commission"
@@ -366,8 +464,13 @@
       "city": "Baltimore",
       "start": "2026-10-04",
       "end": "2027-02-21",
-      "tags": ["photography", "local history"],
-      "access": ["free"],
+      "tags": [
+        "photography",
+        "local history"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "The first comprehensive survey of Baltimore's role in photography's development - more than 200 works by 90 named artists across 185 years.",
       "note": "Free admission.",
       "url": "https://artbma.org/exhibition/flashback-baltimore-photography/"
@@ -379,8 +482,13 @@
       "city": "Baltimore",
       "start": "2026-08-26",
       "end": "2027-02-07",
-      "tags": ["medieval", "manuscripts"],
-      "access": ["free"],
+      "tags": [
+        "medieval",
+        "manuscripts"
+      ],
+      "access": [
+        "free"
+      ],
       "blurb": "A rare showing of the fragile 12th-century missal that Franciscans revere as a touch relic of St. Francis, with eighteen related objects marking the 800th anniversary of his death.",
       "note": "Free admission.",
       "url": "https://thewalters.org/exhibitions/st-francis-2026/"
@@ -392,7 +500,10 @@
       "city": "Philadelphia",
       "start": "2026-04-12",
       "end": "2027-07-05",
-      "tags": ["american", "survey"],
+      "tags": [
+        "american",
+        "survey"
+      ],
       "blurb": "A thousand-plus portraits, sculptures and photographs spanning three centuries of American art - a blockbuster split across two museums on the Parkway.",
       "note": "Dual-venue with PAFA; PAFA's run extends about two months longer.",
       "url": "https://www.pafa.org/museum/exhibitions/a-nation-of-artists"
@@ -404,7 +515,10 @@
       "city": "Philadelphia",
       "start": "2026-04-12",
       "end": "2027-04-04",
-      "tags": ["conceptual art", "works on paper"],
+      "tags": [
+        "conceptual art",
+        "works on paper"
+      ],
       "blurb": "Twenty-two photogravures reproducing museum floor-plan maps - a wry meditation on how institutions frame art, shown alongside A Nation of Artists.",
       "note": "Works on Paper Gallery, Historic Landmark Building.",
       "url": "https://www.pafa.org/museum/exhibitions/fred-wilson-master-plan-or-between-big-bang-modern-art-restroom"
@@ -416,7 +530,10 @@
       "city": "Philadelphia",
       "start": "2026-03-21",
       "end": "2027-01-18",
-      "tags": ["photography", "indigenous"],
+      "tags": [
+        "photography",
+        "indigenous"
+      ],
       "blurb": "Eleven immersive panels layering landscape photographs over copper sheets - a commissioned meditation on America's history with Indigenous peoples, filling the Annenberg Court.",
       "note": "Annenberg Court commission.",
       "url": "https://www.barnesfoundation.org/whats-on/exhibitions/sky-hopinka"
@@ -428,7 +545,10 @@
       "city": "Philadelphia",
       "start": "2026-09-20",
       "end": "2027-01-10",
-      "tags": ["sculpture", "design"],
+      "tags": [
+        "sculpture",
+        "design"
+      ],
       "blurb": "Sculpture and design by two generations of Japanese American artists, from Noguchi's lamps and playgrounds to Asawa's looped-wire forms.",
       "note": "Roberts Gallery.",
       "url": "https://www.barnesfoundation.org/whats-on/exhibitions"
@@ -440,7 +560,10 @@
       "city": "Philadelphia",
       "start": "2026-10-10",
       "end": "2027-01-31",
-      "tags": ["retrospective", "conceptual art"],
+      "tags": [
+        "retrospective",
+        "conceptual art"
+      ],
       "blurb": "The first North American Duchamp retrospective in over fifty years lands in the city with the world's deepest Duchamp holdings, spanning six decades and every medium.",
       "note": "Dorrance Galleries; the show ran at MoMA earlier in 2026.",
       "url": "https://www.philamuseum.org/exhibitions/marcel-duchamp"
@@ -452,7 +575,10 @@
       "city": "Philadelphia",
       "start": "2026-07-12",
       "end": "2026-10-11",
-      "tags": ["decorative arts", "craft"],
+      "tags": [
+        "decorative arts",
+        "craft"
+      ],
       "blurb": "More than 250 objects - ceramics, furniture, metalwork, stained glass - spotlight Philadelphia's Arts and Crafts movement, including Samuel Yellin and Violet Oakley.",
       "note": "Closes Oct 11; timed to the museum's 150th.",
       "url": "https://www.philamuseum.org/exhibitions/workshop-of-the-world"
@@ -464,7 +590,10 @@
       "city": "Philadelphia",
       "start": "2026-05-01",
       "end": "2026-11-01",
-      "tags": ["textile", "incarceration"],
+      "tags": [
+        "textile",
+        "incarceration"
+      ],
       "blurb": "Quilts made from materials contributed by currently and formerly incarcerated people explore memories of home, shown with a new Mural Arts collaboration.",
       "note": "Pair with the museum's Contemporary Tapestry survey next door.",
       "url": "https://fabricworkshopandmuseum.org/exhibition/jesse-krimes-elegy-quilts/"
@@ -476,7 +605,10 @@
       "city": "Buffalo",
       "start": "2026-06-26",
       "end": "2026-11-08",
-      "tags": ["painting", "collection intervention"],
+      "tags": [
+        "painting",
+        "collection intervention"
+      ],
       "blurb": "The AKG's first artist collection intervention - Banisadr threads his own work through the permanent galleries alongside his picks from Hiroshige to Goya.",
       "note": "Hemicycle Gallery and throughout the Wilmers Building.",
       "url": "https://buffaloakg.org/art/exhibitions/ali-banisadr-temple-mind"
@@ -488,7 +620,11 @@
       "city": "Buffalo",
       "start": "2026-09-04",
       "end": "2027-01-31",
-      "tags": ["video art", "installation", "performance"],
+      "tags": [
+        "video art",
+        "installation",
+        "performance"
+      ],
       "blurb": "Six immersive video and performance installations by the Icelandic artist, half making their US museum debut, turning familiar gestures into extended meditations on aspiration and precarity.",
       "note": "Several works are durational video loops; budget extra time to sit with them.",
       "url": "https://buffaloakg.org/art/exhibitions/ragnar-kjartansson-politics-obvious"
@@ -500,7 +636,10 @@
       "city": "Buffalo",
       "start": "2026-08-21",
       "end": "2027-04-04",
-      "tags": ["abstraction", "color field"],
+      "tags": [
+        "abstraction",
+        "color field"
+      ],
       "blurb": "Fifty years of the Indian-born painter's dry-pigment abstractions, split between the AKG's works on paper and monumental canvases at the University at Buffalo Art Galleries.",
       "note": "Two-venue presentation with UB Art Galleries.",
       "url": "https://buffaloakg.org/art/exhibitions"
@@ -512,7 +651,10 @@
       "city": "Buffalo",
       "start": "2025-12-13",
       "end": "2026-11-22",
-      "tags": ["indigenous", "collection"],
+      "tags": [
+        "indigenous",
+        "collection"
+      ],
       "blurb": "A collaboration with the Seneca-Iroquois National Museum on how artists preserve, reinterpret, and evolve cultural practices across both collections.",
       "note": "On view at the Burchfield Penney Off Center at K Art, 808 Main Street.",
       "url": "https://burchfieldpenney.org/exhibitions/exhibition:kindred-works-from-the-burchfield-penney-art-center-and-seneca-iroquois-national-museum-collections/"
@@ -524,7 +666,10 @@
       "city": "Buffalo",
       "start": "2026-05-08",
       "end": "2026-10-18",
-      "tags": ["watercolor", "nature"],
+      "tags": [
+        "watercolor",
+        "nature"
+      ],
       "blurb": "Burchfield's lifelong fascination with the insect world, from field-journal studies to the vibrating, haloed creatures of his late watercolors.",
       "note": "Curated by Burchfield scholar Nancy Weekly.",
       "url": "https://burchfieldpenney.org/exhibitions/exhibition:a-vast-tiny-world/"
@@ -536,8 +681,13 @@
       "city": "Amsterdam",
       "start": "2026-06-05",
       "end": "2026-10-26",
-      "tags": ["sculpture"],
-      "access": ["museumkaart", "free"],
+      "tags": [
+        "sculpture"
+      ],
+      "access": [
+        "museumkaart",
+        "free"
+      ],
       "blurb": "Monumental steel sculptures by the Netherlands' foremost twentieth-century sculptor, gathered outdoors for the first time.",
       "note": "The gardens are free to visit even without a museum ticket.",
       "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions/carel-visser"
@@ -549,8 +699,13 @@
       "city": "Amsterdam",
       "start": "2026-10-09",
       "end": "2027-01-17",
-      "tags": ["painting", "abstract expressionism"],
-      "access": ["museumkaart"],
+      "tags": [
+        "painting",
+        "abstract expressionism"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "More than 120 paintings, drawings, and sculptures follow the Rotterdam-born painter's decades-long push toward a new kind of American abstraction.",
       "note": "Philips Wing; timed entry recommended.",
       "url": "https://www.rijksmuseum.nl/en/whats-on/exhibitions"
@@ -562,8 +717,13 @@
       "city": "Amsterdam",
       "start": "2026-09-11",
       "end": "2027-01-17",
-      "tags": ["retrospective", "immersive"],
-      "access": ["museumkaart"],
+      "tags": [
+        "retrospective",
+        "immersive"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "Seven decades of dots, nets and mirror rooms in a full retrospective - Amsterdam's big autumn ticket, worth planning a trip around.",
       "note": "Just opened; book a timed slot for the Infinity Mirror Rooms.",
       "url": "https://www.stedelijk.nl/en/exhibitions/yayoi-kusama-en"
@@ -575,8 +735,12 @@
       "city": "Amsterdam",
       "start": "2026-05-14",
       "end": "2026-10-18",
-      "tags": ["design"],
-      "access": ["museumkaart"],
+      "tags": [
+        "design"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "The first major retrospective in over fifty years of the designer behind Schiphol's interiors and landmark Dutch furniture.",
       "note": "Includes a reconstruction of part of his 1971 Stedelijk exhibition.",
       "url": "https://www.stedelijk.nl/nl/tentoonstellingen/kho-liang-ie"
@@ -588,8 +752,13 @@
       "city": "Amsterdam",
       "start": "2026-10-01",
       "end": "2027-01-04",
-      "tags": ["japanese prints", "ukiyo-e"],
-      "access": ["museumkaart"],
+      "tags": [
+        "japanese prints",
+        "ukiyo-e"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "All 100 prints of Yoshitoshi's celebrated series One Hundred Aspects of the Moon, made 1885-1890, showing warriors, lovers, ghosts and poets under moonlight.",
       "note": "Print Room; a companion to the museum's Japanese holdings.",
       "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions"
@@ -601,8 +770,13 @@
       "city": "Amsterdam",
       "start": "2026-10-16",
       "end": "2027-01-10",
-      "tags": ["painting", "aestheticism"],
-      "access": ["museumkaart"],
+      "tags": [
+        "painting",
+        "aestheticism"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "The first retrospective in the Netherlands of the American expatriate who argued that a picture should evoke a mood, not tell a story.",
       "note": "Timed entry - book the museum slot well ahead.",
       "url": "https://www.vangoghmuseum.nl/en/visit/whats-on/exhibitions"
@@ -614,8 +788,13 @@
       "city": "Amsterdam",
       "start": "2026-10-03",
       "end": "2027-02-14",
-      "tags": ["painting", "modernism"],
-      "access": ["museumkaart"],
+      "tags": [
+        "painting",
+        "modernism"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "More than thirty Matisse paintings, sculptures and prints from the Centre Pompidou, set among contemporaries and followers from Picasso to Rothko.",
       "note": "Organized with the Centre Pompidou during its long closure.",
       "url": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/"
@@ -627,8 +806,14 @@
       "city": "Amsterdam",
       "start": "2026-05-22",
       "end": "2026-11-08",
-      "tags": ["contemporary", "sculpture", "colonial history"],
-      "access": ["museumkaart"],
+      "tags": [
+        "contemporary",
+        "sculpture",
+        "colonial history"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "The Congolese collective CATPC debuts in Amsterdam with sculptures made from cocoa, palm oil, and sugar confronting plantation economics.",
       "note": "Proceeds from related sales help the artists buy back exhausted plantation land.",
       "url": "https://www.hartmuseum.nl/en/exhibitions/the-land-of-chocolate-sprinkles/"
@@ -640,8 +825,12 @@
       "city": "Amsterdam",
       "start": "2026-09-18",
       "end": "2027-01-20",
-      "tags": ["photography"],
-      "access": ["museumkaart"],
+      "tags": [
+        "photography"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "Four decades of the photographer's work - portraits of Obama and David Lynch, atmospheric landscapes, and studies of the body - in one survey.",
       "note": "Opens alongside new shows by Hailun Ma and Keerthana Kunnath.",
       "url": "https://www.foam.org/exhibitions"
@@ -653,8 +842,14 @@
       "city": "Amsterdam",
       "start": "2026-09-19",
       "end": "2027-01-31",
-      "tags": ["film", "photography", "installation"],
-      "access": ["museumkaart"],
+      "tags": [
+        "film",
+        "photography",
+        "installation"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "Early, little-known and newly commissioned work by the Austrian filmmaker, confronting visitors with the lives of seemingly ordinary people.",
       "note": "Reopens Eye's temporary exhibition space; across the IJ by free ferry.",
       "url": "https://www.eyefilm.nl/en/exhibitions"
@@ -666,8 +861,13 @@
       "city": "Amsterdam",
       "start": "2026-07-09",
       "end": "2027-04-04",
-      "tags": ["social history", "lgbtq"],
-      "access": ["museumkaart"],
+      "tags": [
+        "social history",
+        "lgbtq"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "A long-running exhibition on the history of Amsterdam's LGBTQIA+ community - love, exclusion, courage and hard-won freedom - mounted for WorldPride 2026.",
       "note": "On Dam Square, beside the Palace.",
       "url": "https://www.nieuwekerk.nl/en/exhibitions/queer-amsterdam-the-pink-city/"
@@ -679,8 +879,14 @@
       "city": "Amsterdam",
       "start": "2026-10-10",
       "end": "2027-08-22",
-      "tags": ["music", "design", "social history"],
-      "access": ["museumkaart"],
+      "tags": [
+        "music",
+        "design",
+        "social history"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "Disco as a cultural movement built on freedom, inclusivity and self-expression, told through fashion, sound, photography and design.",
       "note": "Title translated from the Dutch; long run into next summer.",
       "url": "https://amsterdam.wereldmuseum.nl/en/whats-on/exhibitions"
@@ -692,8 +898,12 @@
       "city": "Amsterdam",
       "start": "2026-04-17",
       "end": "2026-10-18",
-      "tags": ["photography"],
-      "access": ["museumkaart"],
+      "tags": [
+        "photography"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "A small side-gallery photography show on family history and memory, shown in the museum's Kunstkabinet.",
       "note": "Compact; part of the Jewish Cultural Quarter.",
       "url": "https://jck.nl/agenda/diana-blok-in-het-kunstkabinet"
@@ -705,8 +915,12 @@
       "city": "Amsterdam",
       "start": "2026-06-27",
       "end": "2026-10-18",
-      "tags": ["photography"],
-      "access": ["museumkaart"],
+      "tags": [
+        "photography"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "The American artist's shape-shifting self-portraiture takes over two seventeenth-century canal houses on the Keizersgracht.",
       "note": "Amsterdam's photography jewel box; closes Oct 18.",
       "url": "https://huismarseille.nl/en/exhibitions/martine-gutierrez/"
@@ -718,8 +932,13 @@
       "city": "Amsterdam",
       "start": "2025-05-16",
       "end": "2026-11-01",
-      "tags": ["archaeology", "glass"],
-      "access": ["museumkaart"],
+      "tags": [
+        "archaeology",
+        "glass"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "Over 200 ancient glass objects examined with nuclear-reactor and X-ray techniques, shown alongside two contemporary glass artists.",
       "note": "Final months; closes Nov 1.",
       "url": "https://www.allardpierson.nl/en/calendar/glass-made-in-antiquity"
@@ -731,7 +950,10 @@
       "city": "London",
       "start": "2026-07-15",
       "end": "2027-01-17",
-      "tags": ["performance", "film"],
+      "tags": [
+        "performance",
+        "film"
+      ],
       "blurb": "Her first comprehensive UK exhibition in over a decade: over 150 works including the iconic Silueta series, newly remastered films, early paintings and late sculpture.",
       "note": "First UK survey in over a decade.",
       "url": "https://www.tate.org.uk/whats-on/tate-modern/ana-mendieta"
@@ -743,7 +965,10 @@
       "city": "London",
       "start": "2026-06-11",
       "end": "2027-05-03",
-      "tags": ["kinetic", "op art"],
+      "tags": [
+        "kinetic",
+        "op art"
+      ],
       "blurb": "Interactive installations, mirrored kinetic sculptures and op-art canvases from the 1950s to the 2010s - a posthumous retrospective, as Le Parc died days before it opened.",
       "note": "On view for nearly a year.",
       "url": "https://www.tate.org.uk/whats-on/tate-modern/julio-le-parc"
@@ -755,7 +980,10 @@
       "city": "London",
       "start": "2026-07-25",
       "end": "2026-10-25",
-      "tags": ["victorian", "painting"],
+      "tags": [
+        "victorian",
+        "painting"
+      ],
       "blurb": "A survey of the Victorian painter of obsessive fairy miniatures, most made inside Bethlem and Broadmoor - strange, minute, unforgettable.",
       "note": "Closes Oct 25; book weekends ahead.",
       "url": "https://www.royalacademy.org.uk/exhibition/richard-dadd"
@@ -767,7 +995,10 @@
       "city": "London",
       "start": "2026-10-03",
       "end": "2027-01-31",
-      "tags": ["impressionism", "painting"],
+      "tags": [
+        "impressionism",
+        "painting"
+      ],
       "blurb": "Around forty-five works focus on Renoir's crucial years, mid-1860s to mid-1880s, with the Musée d'Orsay's Dance at the Moulin de la Galette shown in the UK for the first time.",
       "note": "The most significant Renoir show in the UK in twenty years; ticketed.",
       "url": "https://www.nationalgallery.org.uk/exhibitions/renoir-and-love"
@@ -779,7 +1010,10 @@
       "city": "Paris",
       "start": "2026-06-24",
       "end": "2026-12-31",
-      "tags": ["islamic art", "decorative arts"],
+      "tags": [
+        "islamic art",
+        "decorative arts"
+      ],
       "blurb": "Around fifty Islamic-art objects from the ninth to seventeenth centuries placed in dialogue with the Louvre's Decorative Arts collection around light, colour, and sculpture.",
       "note": "In the Objets d'art galleries, Richelieu wing.",
       "url": "https://www.louvre.fr/en/exhibitions-and-events/exhibitions"
@@ -791,7 +1025,10 @@
       "city": "Paris",
       "start": "2026-10-07",
       "end": "2027-01-25",
-      "tags": ["baroque", "spanish golden age"],
+      "tags": [
+        "baroque",
+        "spanish golden age"
+      ],
       "blurb": "A major retrospective of the Spanish Golden Age master, tracing his path from Caravaggesque naturalism to the still, luminous devotional pictures of his maturity.",
       "note": "Hall Napoléon; organized with the National Gallery, London and the Art Institute of Chicago.",
       "url": "https://www.louvre.fr/en/exhibitions-and-events/exhibitions/zurbaran"
@@ -803,7 +1040,10 @@
       "city": "Paris",
       "start": "2026-10-06",
       "end": "2027-01-31",
-      "tags": ["impressionism", "painting"],
+      "tags": [
+        "impressionism",
+        "painting"
+      ],
       "blurb": "The first major exhibition in France devoted to the American Impressionist who built her career in Paris and shaped what US collectors brought home.",
       "note": "On the museum's upper level.",
       "url": "https://www.musee-orsay.fr/en/whats-on"
@@ -815,7 +1055,10 @@
       "city": "Paris",
       "start": "2026-10-20",
       "end": "2027-02-21",
-      "tags": ["text art", "installation"],
+      "tags": [
+        "text art",
+        "installation"
+      ],
       "blurb": "Monumental installations, façade projections, electronic signs and engraved stones carry Holzer's aphorisms and found language into the former railway station.",
       "note": "Includes projections onto the museum's historic exterior.",
       "url": "https://www.musee-orsay.fr/en/whats-on"
@@ -827,7 +1070,10 @@
       "city": "Tokyo",
       "start": "2026-10-31",
       "end": "2027-03-28",
-      "tags": ["installation", "photography"],
+      "tags": [
+        "installation",
+        "photography"
+      ],
       "blurb": "A three-decade retrospective of the artist's fusion of art, science and metaphysics - some eighty works across interactive installation, sculpture, video and performance.",
       "note": "Co-curated with the Guggenheim's Alexandra Munroe.",
       "url": "https://www.mori.art.museum/en/exhibitions/marikomori/"
@@ -839,7 +1085,10 @@
       "city": "Berlin",
       "start": "2026-09-11",
       "end": "2027-06-20",
-      "tags": ["sound art", "installation"],
+      "tags": [
+        "sound art",
+        "installation"
+      ],
       "blurb": "The first major European retrospective of the late composer and artist gathers seven works into five large-scale installations blurring sound, time and image.",
       "note": "Some rooms are darkened, immersive sound environments; allow time to sit.",
       "url": "https://www.smb.museum/en/exhibitions/detail/ryuichi-sakamoto/"
@@ -851,7 +1100,10 @@
       "city": "Hong Kong",
       "start": "2026-06-27",
       "end": "2027-01-10",
-      "tags": ["design", "family"],
+      "tags": [
+        "design",
+        "family"
+      ],
       "blurb": "Twenty-one interactive stations built around everyday actions, adapted for Hong Kong from the viral Japanese children's design TV program.",
       "note": "Good for visiting with kids.",
       "url": "https://www.mplus.org.hk/en/exhibitions/design-ah-experience-the-wonder-of-everyday-design/"
@@ -863,7 +1115,11 @@
       "city": "Hong Kong",
       "start": "2026-10-17",
       "end": "2027-04-04",
-      "tags": ["fantasy", "visual culture", "survey"],
+      "tags": [
+        "fantasy",
+        "visual culture",
+        "survey"
+      ],
       "blurb": "From the nineteenth century to now, fantasy as a creative tool artists use to respond to shifting political conditions across Asia and beyond.",
       "note": "West Gallery.",
       "url": "https://www.mplus.org.hk/en/exhibitions/myths-and-monsters-the-art-of-fantasy-in-asia/"
@@ -875,7 +1131,10 @@
       "city": "Seoul",
       "start": "2026-08-27",
       "end": "2027-02-09",
-      "tags": ["installation", "sculpture"],
+      "tags": [
+        "installation",
+        "sculpture"
+      ],
       "blurb": "The artist's largest exhibition to date - more than 500 drawings, sculptures, videos and installations mapping four decades of home, memory and migration.",
       "note": "The Genesis Exhibition; a homecoming after Walk the House at Tate Modern.",
       "url": "https://www.mmca.go.kr/eng/"
@@ -887,7 +1146,10 @@
       "city": "Seoul",
       "start": "2026-09-05",
       "end": "2026-12-27",
-      "tags": ["installation", "conceptual"],
+      "tags": [
+        "installation",
+        "conceptual"
+      ],
       "blurb": "The largest Korean survey of Koo Jeong A - around thirty-five works from the early 1990s to new commissions, spilling from gallery M2 into the lobby and the traditional-art galleries.",
       "note": "Opened during Seoul Art Week.",
       "url": "https://www.leeum.org/"
@@ -899,7 +1161,10 @@
       "city": "Mexico City",
       "start": "2026-06-10",
       "end": "2026-10-18",
-      "tags": ["archaeology", "contemporary"],
+      "tags": [
+        "archaeology",
+        "contemporary"
+      ],
       "blurb": "More than sixty artists reassess 1980s Mexico through pre-Hispanic heritage, territory, and the country's globalizing turn.",
       "note": "Chapultepec Park; closes Oct 18.",
       "url": "https://www.museotamayo.org/en/exposiciones-actuales"
@@ -911,22 +1176,13 @@
       "city": "Mexico City",
       "start": "2026-09-26",
       "end": "2027-02-07",
-      "tags": ["appropriation", "photography"],
+      "tags": [
+        "appropriation",
+        "photography"
+      ],
       "blurb": "A career survey of the American artist's rephotography, jokes, and cowboys - the pictures that made appropriation a house style.",
       "note": "The museum reopens after an installation break with this show.",
       "url": "https://www.fundacionjumex.org/en/exposiciones"
-    },
-    {
-      "title": "Carolina Caycedo: Confluências",
-      "artist": "Carolina Caycedo",
-      "venue": "MASP",
-      "city": "São Paulo",
-      "start": "2026-07-03",
-      "end": "2026-10-04",
-      "tags": ["installation", "ecology"],
-      "blurb": "The Colombian-American artist's work on rivers, extraction, and collective resistance, on Avenida Paulista.",
-      "note": "Closes Oct 4; includes the live performance Atarraya in the Free Space.",
-      "url": "https://masp.org.br/en/exposicoes/carolina-caycedo-confluencias"
     },
     {
       "title": "Latin American Histories",
@@ -935,7 +1191,10 @@
       "city": "São Paulo",
       "start": "2026-09-04",
       "end": "2027-01-31",
-      "tags": ["survey", "latin american art"],
+      "tags": [
+        "survey",
+        "latin american art"
+      ],
       "blurb": "A five-floor international group show, the anchor of MASP's year, examining how the idea of Latin America was constructed and keeps being contested.",
       "note": "Fills the Pietro Maria Bardi Building; allow a half day.",
       "url": "https://masp.org.br/en/exhibitions/latin-american-histories"
@@ -947,7 +1206,10 @@
       "city": "São Paulo",
       "start": "2026-10-17",
       "end": "2027-05-16",
-      "tags": ["video art", "sound art"],
+      "tags": [
+        "video art",
+        "sound art"
+      ],
       "blurb": "A retrospective of the video-art pioneer set in conversation with Brazilian artist Vivian Caccuri's work on sound, perception and technology.",
       "note": "Pinacoteca Contemporânea building.",
       "url": "https://pinacoteca.org.br/en/"
@@ -959,7 +1221,10 @@
       "city": "Venice",
       "start": "2026-05-09",
       "end": "2026-11-22",
-      "tags": ["biennale", "survey"],
+      "tags": [
+        "biennale",
+        "survey"
+      ],
       "blurb": "The 61st International Art Exhibition realises the late Koyo Kouoh's 'In Minor Keys' - 110 invited participants plus a hundred national pavilions across the city and Forte Marghera.",
       "note": "Final weeks; allow two full days and comfortable shoes.",
       "url": "https://www.labiennale.org/en/art/2026"
@@ -971,7 +1236,11 @@
       "city": "New York",
       "start": "2026-11-04",
       "end": "2027-09-05",
-      "tags": ["design", "sculpture", "lighting"],
+      "tags": [
+        "design",
+        "sculpture",
+        "lighting"
+      ],
       "blurb": "Marking 75 years since Noguchi's Akari light sculptures debuted, this show traces the many settings where he presented them, from a 1951 Eames House tea ceremony to the 1986 Venice Biennale.",
       "note": "Second-floor galleries closed for installation Sep 16-Nov 1.",
       "url": "https://www.noguchi.org/museum/exhibitions/view/no-ordinary-light-akari-at-75/"
@@ -983,7 +1252,9 @@
       "city": "New York",
       "start": "2026-06-24",
       "end": "2026-10-11",
-      "tags": ["photography"],
+      "tags": [
+        "photography"
+      ],
       "blurb": "A contemporary photography survey exploring transformation and spirit, part of ICP's summer exhibition slate.",
       "note": "Final weeks; pair with ICP's other summer shows before they close.",
       "url": "https://www.icp.org/exhibitions"
@@ -995,7 +1266,10 @@
       "city": "New York",
       "start": "2026-11-12",
       "end": "2027-01-11",
-      "tags": ["collection", "german and austrian art"],
+      "tags": [
+        "collection",
+        "german and austrian art"
+      ],
       "blurb": "The museum reopens its Fifth Avenue home after summer upgrades with a celebration of its first 25 years, anchored by Klimt's Portrait of Adele Bloch-Bauer I.",
       "note": "Café Sabarsky and the shop resume regular hours Oct 1; galleries reopen Nov 12.",
       "url": "https://www.neuegalerie.org/exhibitions"
@@ -1007,7 +1281,11 @@
       "city": "Baltimore",
       "start": "2026-10-10",
       "end": "2027-09-05",
-      "tags": ["outsider art", "self-taught", "craft"],
+      "tags": [
+        "outsider art",
+        "self-taught",
+        "craft"
+      ],
       "blurb": "AVAM's 31st major thematic exhibition looks at how appearance - drawing, portraiture, fiber, and wearable form built from buttons, pipe cleaners, and bark - carries feeling, humor, and self-authorship.",
       "note": "AVAM's shows run on suggested-donation-style general admission; check current ticket policy.",
       "url": "https://www.avam.org/exhibits"
@@ -1019,7 +1297,10 @@
       "city": "Baltimore",
       "start": "2026-07-31",
       "end": "2027-10-31",
-      "tags": ["african american history", "maryland"],
+      "tags": [
+        "african american history",
+        "maryland"
+      ],
       "blurb": "A multi-floor survey of how Black Marylanders pushed boundaries and shaped the social, cultural, and political landscape of America across two and a half centuries.",
       "note": "Long-running flagship exhibition; pairs with the museum's TITAN Reginald F. Lewis show.",
       "url": "https://www.lewismuseum.org/exhibitions/"
@@ -1031,7 +1312,10 @@
       "city": "Baltimore",
       "start": "2026-09-23",
       "end": "2026-11-14",
-      "tags": ["immigrant artists", "group show"],
+      "tags": [
+        "immigrant artists",
+        "group show"
+      ],
       "blurb": "The inaugural exhibition for a new $10,000 prize honoring Baltimore housing pioneer Patricia Massey, showing new work by three emerging immigrant artists based in Maryland and DC.",
       "note": "At The Patterson; the award winner was announced at the Sep 23 opening.",
       "url": "https://creativealliance.org/patricia-massey-momentum-award/"
@@ -1043,7 +1327,11 @@
       "city": "Philadelphia",
       "start": "2026-09-26",
       "end": "2027-02-21",
-      "tags": ["diaspora", "group show", "contemporary"],
+      "tags": [
+        "diaspora",
+        "group show",
+        "contemporary"
+      ],
       "blurb": "A group exhibition tracing solidarities and exchange among Black, African, and Chinese diasporic networks.",
       "note": "New fall-2026 gallery hours: Wed-Sun 11am-6pm, Thu until 8pm.",
       "url": "https://icaphila.org/exhibitions/the-condition-of-being-near/"
@@ -1055,7 +1343,11 @@
       "city": "Philadelphia",
       "start": "2026-09-26",
       "end": "2027-02-21",
-      "tags": ["installation", "sculpture", "performance"],
+      "tags": [
+        "installation",
+        "sculpture",
+        "performance"
+      ],
       "blurb": "The Philadelphia-based artist's first solo museum show uses the Eastern gray squirrel as an unexpected lens on American identity and urban space, launching ICA's new R+D residency.",
       "note": "Opened alongside The Condition of Being Near.",
       "url": "https://icaphila.org/exhibitions/skirl/"
@@ -1067,8 +1359,13 @@
       "city": "Amsterdam",
       "start": "2026-09-17",
       "end": "2027-03-21",
-      "tags": ["textile", "installation"],
-      "access": ["museumkaart"],
+      "tags": [
+        "textile",
+        "installation"
+      ],
+      "access": [
+        "museumkaart"
+      ],
       "blurb": "A knitted textile installation built around a replica of the VOC ship Amsterdam, reframing the vessel's colonial-era history.",
       "note": "Museumkaart covers general admission to the museum and this show.",
       "url": "https://www.hetscheepvaartmuseum.com/whats-on/exhibitions/crimson-gilt"
@@ -1080,7 +1377,11 @@
       "city": "London",
       "start": "2026-10-08",
       "end": "2027-02-14",
-      "tags": ["fashion", "photography", "1990s"],
+      "tags": [
+        "fashion",
+        "photography",
+        "1990s"
+      ],
       "blurb": "Curated by Edward Enninful, a sweeping look at how 1990s British art, fashion, and photography fused into one cultural force.",
       "note": "Expect strong ticket demand around the opening weeks.",
       "url": "https://www.tate.org.uk/whats-on"
@@ -1092,7 +1393,11 @@
       "city": "London",
       "start": "2026-10-07",
       "end": "2027-02-14",
-      "tags": ["textile", "poetry", "installation"],
+      "tags": [
+        "textile",
+        "poetry",
+        "installation"
+      ],
       "blurb": "The Chilean poet and artist's first major UK exhibition, spanning six decades of quipu weavings, precarious sculptures, and politically charged textile works.",
       "note": "Pair with a stop at Whitechapel's ground-floor bookshop.",
       "url": "https://www.whitechapelgallery.org/exhibitions/"
@@ -1104,10 +1409,15 @@
       "city": "London",
       "start": "2026-10-08",
       "end": "2027-01-10",
-      "tags": ["installation", "painting"],
+      "tags": [
+        "installation",
+        "painting"
+      ],
       "blurb": "Ringing bells and thermochromatic paintings that shift colour with heat and light turn the Serpentine's galleries into a giant instrument.",
       "note": "Free admission, Kensington Gardens.",
-      "access": ["free"],
+      "access": [
+        "free"
+      ],
       "url": "https://www.serpentinegalleries.org/whats-on/"
     },
     {
@@ -1117,7 +1427,11 @@
       "city": "Paris",
       "start": "2026-10-21",
       "end": "2027-02-14",
-      "tags": ["contemporary", "rural france", "group show"],
+      "tags": [
+        "contemporary",
+        "rural france",
+        "group show"
+      ],
       "blurb": "About thirty works map artistic and social territories outside the usual centers - Limousin, Cévennes, Corsica, the Hautes-Pyrénées, the Pays Basque - opening the autumn season.",
       "note": "Anchors Palais de Tokyo's autumn programme, themed around territory.",
       "url": "https://palaisdetokyo.com/en/"
@@ -1129,7 +1443,11 @@
       "city": "Berlin",
       "start": "2026-10-09",
       "end": "2027-01-17",
-      "tags": ["retrospective", "performance", "film"],
+      "tags": [
+        "retrospective",
+        "performance",
+        "film"
+      ],
       "blurb": "A comprehensive retrospective of the provocateur filmmaker and theater-maker, spanning political interventions, radical theater, and work that crossed between performance and visual art.",
       "note": "Berlin's other major fall opening alongside the Sakamoto retrospective.",
       "url": "https://www.berlinerfestspiele.de/en/gropius-bau/ausstellungen/aktuell-und-vorschau"
@@ -1141,7 +1459,11 @@
       "city": "Seoul",
       "start": "2026-10-21",
       "end": "2027-02-21",
-      "tags": ["media art", "film", "retrospective"],
+      "tags": [
+        "media art",
+        "film",
+        "retrospective"
+      ],
       "blurb": "Her first solo museum exhibition in Asia surveys more than sixty years of the pioneering media artist and filmmaker's work.",
       "note": "SeMA Seosomun Main Branch.",
       "url": "https://sema.seoul.go.kr/en/whatson/exhibition/detail?exNo=1309905"
@@ -1153,7 +1475,10 @@
       "city": "Mexico City",
       "start": "2026-10-16",
       "end": "2027-02-07",
-      "tags": ["installation", "architecture"],
+      "tags": [
+        "installation",
+        "architecture"
+      ],
       "blurb": "An immersive, site-specific installation weaving together the stories of Helen Fowler O'Gorman, Helen Escobedo, and architect Juan O'Gorman around his Casa Cueva.",
       "note": "Opens alongside Richard Prince: Tell Me Everything.",
       "url": "https://www.fundacionjumex.org/en/exposiciones"
@@ -1165,7 +1490,10 @@
       "city": "São Paulo",
       "start": "2026-10-30",
       "end": "2027-04-04",
-      "tags": ["indigenous art", "painting"],
+      "tags": [
+        "indigenous art",
+        "painting"
+      ],
       "blurb": "The first Brazilian retrospective of the self-taught Kaqchikel Maya painter, whose small, densely detailed panels record daily life in Comalapa, Guatemala.",
       "note": "Lina Bo Bardi Building.",
       "url": "https://masp.org.br/en/exhibitions"
@@ -1177,7 +1505,10 @@
       "city": "São Paulo",
       "start": "2026-11-27",
       "end": "2027-04-04",
-      "tags": ["kinetic art", "sculpture"],
+      "tags": [
+        "kinetic art",
+        "sculpture"
+      ],
       "blurb": "The first Brazilian museum exhibition in more than two decades devoted to the Venezuelan kinetic-art pioneer, curated by Adriano Pedrosa.",
       "note": "Opens alongside the Curruchich and Trans documentary shows.",
       "url": "https://masp.org.br/en/exhibitions"
@@ -1189,7 +1520,11 @@
       "city": "Tokyo",
       "start": "2026-09-09",
       "end": "2026-12-13",
-      "tags": ["renaissance", "old master", "loans"],
+      "tags": [
+        "renaissance",
+        "old master",
+        "loans"
+      ],
       "blurb": "More than fifty Louvre Renaissance masterpieces, headlined by the first-ever Japan appearance of Leonardo's La Belle Ferronnière.",
       "note": "The museum's first Louvre collection show in three years; open late Fri/Sat.",
       "url": "https://www.nact.jp/english/exhibition_special/2026/louvre2026/"
@@ -1201,10 +1536,189 @@
       "city": "Tokyo",
       "start": "2026-10-10",
       "end": "2027-01-10",
-      "tags": ["old master", "loans", "european art"],
+      "tags": [
+        "old master",
+        "loans",
+        "european art"
+      ],
       "blurb": "A survey of European painting drawn from the Cincinnati Art Museum's holdings, on rare loan to Tokyo.",
       "note": "Ueno Park museum district; easy to pair with the Tokyo National Museum.",
       "url": "https://www.nact.jp/english/artcommons/user/search_venue?gallery=1738"
+    },
+    {
+      "title": "The Bowery: Devil's Mile",
+      "artist": "Group exhibition",
+      "venue": "New Museum",
+      "city": "New York",
+      "start": "2026-09-24",
+      "end": "2027-01-31",
+      "tags": [
+        "history",
+        "new york",
+        "group show"
+      ],
+      "blurb": "The first exhibition to trace the history and culture of New York's oldest thoroughfare, gathering artworks and artifacts that treat the Bowery as a street, a neighborhood, and a state of mind.",
+      "note": "At 235 Bowery on the Lower East Side; closed Mondays, timed tickets recommended on weekends.",
+      "url": "https://www.newmuseum.org/exhibitions"
+    },
+    {
+      "title": "Nilima Sheikh: Fractured Skies",
+      "artist": "Nilima Sheikh",
+      "venue": "Museum of Modern Art",
+      "city": "New York",
+      "start": "2026-09-27",
+      "end": "2027-06-13",
+      "tags": [
+        "painting",
+        "south asia",
+        "contemporary"
+      ],
+      "blurb": "The Indian painter's first New York solo presentation pairs her Kashmir cycle with a new site-responsive set of paintings, narrative work that folds regional history and women's voices into shimmering scroll-like surfaces.",
+      "note": "Included with MoMA admission; co-organized with the Kiran Nadar Museum of Art, New Delhi.",
+      "url": "https://www.moma.org/calendar/exhibitions/5932"
+    },
+    {
+      "title": "The Surrealist Book: Tomorrow Lives in Mirrors",
+      "artist": "Group exhibition",
+      "venue": "Museum of Modern Art",
+      "city": "New York",
+      "start": "2026-10-04",
+      "end": "2027-01-23",
+      "tags": [
+        "surrealism",
+        "books",
+        "works on paper"
+      ],
+      "blurb": "A look at the unconventional, experimental books the Surrealists made, treating the printed page as a laboratory for collage, chance, and collaboration.",
+      "note": "Included with MoMA admission; a compact show that pairs well with the Brancusi exhibition opening October 25.",
+      "url": "https://press.moma.org/exhibitions"
+    },
+    {
+      "title": "Fantasy and Reality: The Art of Johan Tobias Sergel",
+      "artist": "Johan Tobias Sergel",
+      "venue": "Morgan Library & Museum",
+      "city": "New York",
+      "start": "2026-10-30",
+      "end": "2027-01-31",
+      "tags": [
+        "drawing",
+        "sculpture",
+        "18th century"
+      ],
+      "blurb": "The first exhibition outside Europe devoted to the Swedish Neoclassical sculptor, setting terracottas, marbles, and plasters beside the caricature-rich drawings that read like a diary of his life.",
+      "note": "Opens October 30; the Morgan is closed Mondays and free on Friday evenings with reservation.",
+      "url": "https://www.themorgan.org/exhibitions/johan-tobias-sergel"
+    },
+    {
+      "title": "Carlotta Corpron: Light Is a Plastic Medium",
+      "artist": "Carlotta Corpron",
+      "venue": "Hirshhorn Museum",
+      "city": "Washington, DC",
+      "start": "2026-10-16",
+      "end": "2027-03-14",
+      "tags": [
+        "photography",
+        "abstraction",
+        "modernism"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "A survey of the Texas-based abstract photographer and teacher, following six bodies of work from the late 1930s to the early 1950s in which light itself becomes the sculptural material.",
+      "note": "Opens October 16; free, no tickets needed. The renovated sculpture garden reopens October 31.",
+      "url": "https://hirshhorn.si.edu/exhibitions/"
+    },
+    {
+      "title": "Much Here Is Beautiful: Photography Surveys of the U.S. Bicentennial",
+      "artist": "Group exhibition",
+      "venue": "Smithsonian American Art Museum",
+      "city": "Washington, DC",
+      "start": "2026-09-18",
+      "end": "2027-04-18",
+      "tags": [
+        "photography",
+        "american history",
+        "documentary"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "Some 225 photographs from the federally funded survey projects of the Bicentennial years, brought together for the first time as a sprawling portrait of 1970s America.",
+      "note": "Free; open daily 11:30 to 7 at 8th and G Streets NW, sharing a building with the National Portrait Gallery.",
+      "url": "https://americanart.si.edu/press/2026/29/landmark-exhibition-smithsonian-american-art-museum-unites-us-bicentennial"
+    },
+    {
+      "title": "Adorned in Gold: Japanese Lacquer from the Jacqueline Avant Collection",
+      "artist": "Group exhibition",
+      "venue": "National Museum of Asian Art",
+      "city": "Washington, DC",
+      "start": "2026-11-21",
+      "end": "2028-01-02",
+      "tags": [
+        "japan",
+        "lacquer",
+        "decorative arts"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "Edo-period maki-e, gold powder sprinkled onto wet lacquer, on combs, hairpins, boxes, and even a princess's litter, drawn from the collection of the late philanthropist Jacqueline Avant.",
+      "note": "Opens November 21; free, open daily 10 to 5:30 on the National Mall.",
+      "url": "https://my.si.edu/exhibitions/adorned-in-gold-japanese-lacquer-from-the-jacqueline-avant-collection"
+    },
+    {
+      "title": "Luxury & Loss: Feather, Shell, Tusk, Horn",
+      "artist": "Group exhibition",
+      "venue": "Walters Art Museum",
+      "city": "Baltimore",
+      "start": "2026-11-07",
+      "end": "2027-01-24",
+      "tags": [
+        "decorative arts",
+        "ecology",
+        "materials"
+      ],
+      "access": [
+        "free"
+      ],
+      "blurb": "Objects in kingfisher feather, tortoiseshell, rhinoceros horn, and ivory from across the Walters collections, weighing centuries of craftsmanship against the cost to the animals that supplied it.",
+      "note": "Opens November 7 in the Centre Street Building, Level 1; free admission, closed Mondays and Tuesdays.",
+      "url": "https://thewalters.org/exhibitions/luxury-loss"
+    },
+    {
+      "title": "Worn: Treasured Clothing",
+      "artist": "Group exhibition",
+      "venue": "Rijksmuseum",
+      "city": "Amsterdam",
+      "start": "2026-03-27",
+      "end": "2027-03-21",
+      "tags": [
+        "fashion",
+        "textiles",
+        "history"
+      ],
+      "access": [
+        "museumkaart"
+      ],
+      "blurb": "An intimate display of 24 garments and accessories from 1640 to 1930 that were worn, altered, and handed down, with the mends and wear left proudly visible.",
+      "note": "In the Special Collections galleries; included with Rijksmuseum entry, timed start slot required even with Museumkaart.",
+      "url": "https://www.rijksmuseum.nl/en/stories/exhibitions/worn"
+    },
+    {
+      "title": "Maurizio Cattelan: NIGHT",
+      "artist": "Maurizio Cattelan",
+      "venue": "Neue Nationalgalerie",
+      "city": "Berlin",
+      "start": "2026-09-10",
+      "end": "2027-03-07",
+      "tags": [
+        "sculpture",
+        "installation",
+        "contemporary"
+      ],
+      "blurb": "The Italian provocateur's first major solo exhibition in Germany, staged in Mies van der Rohe's glass hall as the Preis der Nationalgalerie 2026 presentation.",
+      "note": "At the Kulturforum; closed Mondays, late opening Thursdays until 8.",
+      "url": "https://www.smb.museum/en/museums-institutions/nationalgalerie/exhibitions/detail/maurizio-cattelan-night/"
     }
   ]
 }
