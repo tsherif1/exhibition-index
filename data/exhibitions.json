@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-06",
-  "method": "Web research against museum sites and reputable listings press (early Oct 2026); every title, venue, and full date range verified against an official page or corroborated across multiple sources. Dropped as closed: Rembrandt's Lions: Art and Exile in the Dutch Republic; Carolina Caycedo: Confluências. Corrected the National Portrait Gallery's Photographic Memory to its published run of Nov 14, 2026 to Nov 7, 2027. Added newly verified shows: New Museum's The Bowery: Devil's Mile, MoMA's Nilima Sheikh and The Surrealist Book, the Morgan's Johan Tobias Sergel, the Hirshhorn's Carlotta Corpron, SAAM's Much Here Is Beautiful, the National Museum of Asian Art's Adorned in Gold, the Walters' Luxury & Loss, the Rijksmuseum's Worn, and Maurizio Cattelan at the Neue Nationalgalerie. Still skipped for lack of a published closing date: Dia Beacon's Haegue Yang: Through (opens Oct 10), the Renwick's Handwork (opens Nov 13), MoMA PS1's Teresa Margolles, and the Bronx Museum and Rubell Museum DC fall programs.",
+  "updated": "2026-10-14",
+  "method": "Web research against museum sites and reputable listings press (mid Oct 2026); every title, venue, and full date range verified against an official page or corroborated across multiple sources. Dropped as closed: Workshop of the World: Arts and Crafts in Philadelphia; Andrea Hernández Briceño: Fire Becomes Spirit. Added newly verified shows: MoMA PS1's Teresa Margolles survey, the Met's Costume Art, the Tokyo National Museum's Daitokuji, and the Hong Kong Palace Museum's Heavenly Horses. Still skipped for lack of a confirmed closing date: Dia Beacon's Haegue Yang: Through (sources conflict), the Renwick's Handwork: Contemporary Craft (opens Nov 13), and the Bronx Museum and Rubell Museum DC fall programs.",
   "exhibitions": [
     {
       "title": "Guggenheim Pop: 1960 to Now",
@@ -432,18 +432,6 @@
       "blurb": "The first North American Duchamp retrospective in over fifty years lands in the city with the world's deepest Duchamp holdings, spanning six decades and every medium.",
       "note": "Dorrance Galleries; the show ran at MoMA earlier in 2026.",
       "url": "https://www.philamuseum.org/exhibitions/marcel-duchamp"
-    },
-    {
-      "title": "Workshop of the World: Arts and Crafts in Philadelphia",
-      "artist": "Group show",
-      "venue": "Philadelphia Museum of Art",
-      "city": "Philadelphia",
-      "start": "2026-07-12",
-      "end": "2026-10-11",
-      "tags": ["decorative arts", "craft"],
-      "blurb": "More than 250 objects - ceramics, furniture, metalwork, stained glass - spotlight Philadelphia's Arts and Crafts movement, including Samuel Yellin and Violet Oakley.",
-      "note": "Closes Oct 11; timed to the museum's 150th.",
-      "url": "https://www.philamuseum.org/exhibitions/workshop-of-the-world"
     },
     {
       "title": "Jesse Krimes: Elegy Quilts",
@@ -953,18 +941,6 @@
       "url": "https://www.noguchi.org/museum/exhibitions/view/no-ordinary-light-akari-at-75/"
     },
     {
-      "title": "Andrea Hernández Briceño: Fire Becomes Spirit",
-      "artist": "Andrea Hernández Briceño",
-      "venue": "International Center of Photography",
-      "city": "New York",
-      "start": "2026-06-24",
-      "end": "2026-10-11",
-      "tags": ["photography"],
-      "blurb": "A contemporary photography survey exploring transformation and spirit, part of ICP's summer exhibition slate.",
-      "note": "Final weeks; pair with ICP's other summer shows before they close.",
-      "url": "https://www.icp.org/exhibitions"
-    },
-    {
       "title": "25th Anniversary Exhibition",
       "artist": "Collection highlights, including Gustav Klimt",
       "venue": "Neue Galerie New York",
@@ -1306,6 +1282,54 @@
       "blurb": "The Italian provocateur's first major solo exhibition in Germany, staged in Mies van der Rohe's glass hall as the Preis der Nationalgalerie 2026 presentation.",
       "note": "At the Kulturforum; closed Mondays, late opening Thursdays until 8.",
       "url": "https://www.smb.museum/en/museums-institutions/nationalgalerie/exhibitions/detail/maurizio-cattelan-night/"
+    },
+    {
+      "title": "Teresa Margolles",
+      "artist": "Teresa Margolles",
+      "venue": "MoMA PS1",
+      "city": "New York",
+      "start": "2026-09-24",
+      "end": "2027-02-08",
+      "tags": ["contemporary", "survey", "installation", "Mexico"],
+      "blurb": "The first US survey of the Mexican artist fills PS1's third floor with three decades of sculpture, photography, and video confronting violence and grief, anchored by La promesa, a wall built from the rubble of a Ciudad Juárez home.",
+      "note": "In Long Island City, Queens; a related installation is on view at MoMA in Midtown.",
+      "url": "https://www.momaps1.org/en/programs/760-teresa-margolles"
+    },
+    {
+      "title": "Costume Art",
+      "artist": "The Costume Institute and works across The Met collection",
+      "venue": "The Metropolitan Museum of Art",
+      "city": "New York",
+      "start": "2026-05-10",
+      "end": "2027-01-10",
+      "tags": ["fashion", "costume", "collection"],
+      "blurb": "The Costume Institute's spring show pairs garments with nearly 400 objects from across The Met to explore the dressed body in art, and inaugurates the new Condé M. Nast Galleries off the Great Hall.",
+      "note": "Included with Met admission; expect crowds on weekends.",
+      "url": "https://www.metmuseum.org/press-releases/costume-institute-spring-2026"
+    },
+    {
+      "title": "Daitokuji: A Zen Temple Beyond Compare",
+      "artist": "Treasures of Daitokuji, including Muqi and a yohen tenmoku tea bowl",
+      "venue": "Tokyo National Museum",
+      "city": "Tokyo",
+      "start": "2026-10-14",
+      "end": "2026-12-06",
+      "tags": ["Zen", "Japanese art", "national treasures", "tea culture"],
+      "blurb": "Marking the Kyoto temple's 700th anniversary, the first Daitokuji exhibition in Tokyo in 41 years gathers National Treasures including Muqi's Guanyin, Monkeys, and Crane and a recreated interior of the temple's Sanmon gate.",
+      "note": "In the Heiseikan; works rotate between halves (Oct 14 to Nov 8, Nov 10 to Dec 6). Closed Mondays.",
+      "url": "https://www.tnm.jp/"
+    },
+    {
+      "title": "Heavenly Horses: Masterpieces from the Palace Museum",
+      "artist": "Chinese painters from the Yuan dynasty to the 20th century",
+      "venue": "Hong Kong Palace Museum",
+      "city": "Hong Kong",
+      "start": "2026-03-20",
+      "end": "2027-03-17",
+      "tags": ["Chinese painting", "Palace Museum", "horses"],
+      "blurb": "Nearly 100 horse paintings by more than 60 artists, lent from Beijing's Palace Museum, trace one of Chinese art's most enduring subjects across seven centuries.",
+      "note": "In West Kowloon, a short walk from M+; book timed tickets online.",
+      "url": "https://www.hkpm.org.hk/en/about/press-release/hong-kong-palace-museum-unveils-exciting-2026-exhibition-lineup-with-nine-new-exhibitions-showcasing-chinese-treasures-and-world-art-masterpieces"
     }
   ]
 }
