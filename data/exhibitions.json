@@ -1,6 +1,6 @@
 {
-  "updated": "2026-10-14",
-  "method": "Web research against museum sites and reputable listings press (mid Oct 2026); every title, venue, and full date range verified against an official page or corroborated across multiple sources. Dropped as closed: Workshop of the World: Arts and Crafts in Philadelphia; Andrea Hernández Briceño: Fire Becomes Spirit. Added newly verified shows: MoMA PS1's Teresa Margolles survey, the Met's Costume Art, the Tokyo National Museum's Daitokuji, and the Hong Kong Palace Museum's Heavenly Horses. Still skipped for lack of a confirmed closing date: Dia Beacon's Haegue Yang: Through (sources conflict), the Renwick's Handwork: Contemporary Craft (opens Nov 13), and the Bronx Museum and Rubell Museum DC fall programs.",
+  "updated": "2026-10-18",
+  "method": "Web research against museum sites and reputable listings press (mid Oct 2026); every title, venue, and full date range verified against an official page or corroborated across multiple sources. Dropped as closing by Oct 18: A VAST, tiny WORLD: Burchfield's Insects & Spiders; Kho Liang Ie: Mid-Century Modernist; Diana Blok: Time Tells; Martine Gutierrez: Wunderkind; Before the Eclipse: Archaeologies of Art in Mexico. Added newly verified shows: Huis Marseille's Adolphe de Meyer: The Substance of a Venetian Dream and the National Gallery London's Van Eyck: The Portraits. Still skipped for lack of a confirmed closing date: Dia Beacon's Haegue Yang: Through, the Renwick's Handwork: Contemporary Craft (opens Nov 13), Foam's Hailun Ma: Hometown (sources conflict), and the Bronx Museum and Rubell Museum DC fall programs.",
   "exhibitions": [
     {
       "title": "Guggenheim Pop: 1960 to Now",
@@ -494,18 +494,6 @@
       "url": "https://burchfieldpenney.org/exhibitions/exhibition:kindred-works-from-the-burchfield-penney-art-center-and-seneca-iroquois-national-museum-collections/"
     },
     {
-      "title": "A VAST, tiny WORLD: Burchfield's Insects & Spiders",
-      "artist": "Charles E. Burchfield",
-      "venue": "Burchfield Penney Art Center",
-      "city": "Buffalo",
-      "start": "2026-05-08",
-      "end": "2026-10-18",
-      "tags": ["watercolor", "nature"],
-      "blurb": "Burchfield's lifelong fascination with the insect world, from field-journal studies to the vibrating, haloed creatures of his late watercolors.",
-      "note": "Curated by Burchfield scholar Nancy Weekly.",
-      "url": "https://burchfieldpenney.org/exhibitions/exhibition:a-vast-tiny-world/"
-    },
-    {
       "title": "Carel Visser in the Rijksmuseum Gardens",
       "artist": "Carel Visser",
       "venue": "Rijksmuseum",
@@ -543,19 +531,6 @@
       "blurb": "Seven decades of dots, nets and mirror rooms in a full retrospective - Amsterdam's big autumn ticket, worth planning a trip around.",
       "note": "Just opened; book a timed slot for the Infinity Mirror Rooms.",
       "url": "https://www.stedelijk.nl/en/exhibitions/yayoi-kusama-en"
-    },
-    {
-      "title": "Kho Liang Ie: Mid-Century Modernist",
-      "artist": "Kho Liang Ie",
-      "venue": "Stedelijk Museum",
-      "city": "Amsterdam",
-      "start": "2026-05-14",
-      "end": "2026-10-18",
-      "tags": ["design"],
-      "access": ["museumkaart"],
-      "blurb": "The first major retrospective in over fifty years of the designer behind Schiphol's interiors and landmark Dutch furniture.",
-      "note": "Includes a reconstruction of part of his 1971 Stedelijk exhibition.",
-      "url": "https://www.stedelijk.nl/nl/tentoonstellingen/kho-liang-ie"
     },
     {
       "title": "Yoshitoshi: Master of the Moon",
@@ -660,32 +635,6 @@
       "blurb": "Disco as a cultural movement built on freedom, inclusivity and self-expression, told through fashion, sound, photography and design.",
       "note": "Title translated from the Dutch; long run into next summer.",
       "url": "https://amsterdam.wereldmuseum.nl/en/whats-on/exhibitions"
-    },
-    {
-      "title": "Diana Blok: Time Tells",
-      "artist": "Diana Blok",
-      "venue": "Jewish Museum Amsterdam",
-      "city": "Amsterdam",
-      "start": "2026-04-17",
-      "end": "2026-10-18",
-      "tags": ["photography"],
-      "access": ["museumkaart"],
-      "blurb": "A small side-gallery photography show on family history and memory, shown in the museum's Kunstkabinet.",
-      "note": "Compact; part of the Jewish Cultural Quarter.",
-      "url": "https://jck.nl/agenda/diana-blok-in-het-kunstkabinet"
-    },
-    {
-      "title": "Martine Gutierrez: Wunderkind",
-      "artist": "Martine Gutierrez",
-      "venue": "Huis Marseille",
-      "city": "Amsterdam",
-      "start": "2026-06-27",
-      "end": "2026-10-18",
-      "tags": ["photography"],
-      "access": ["museumkaart"],
-      "blurb": "The American artist's shape-shifting self-portraiture takes over two seventeenth-century canal houses on the Keizersgracht.",
-      "note": "Amsterdam's photography jewel box; closes Oct 18.",
-      "url": "https://huismarseille.nl/en/exhibitions/martine-gutierrez/"
     },
     {
       "title": "Glass, Made in Antiquity",
@@ -867,18 +816,6 @@
       "blurb": "The largest Korean survey of Koo Jeong A - around thirty-five works from the early 1990s to new commissions, spilling from gallery M2 into the lobby and the traditional-art galleries.",
       "note": "Opened during Seoul Art Week.",
       "url": "https://www.leeum.org/"
-    },
-    {
-      "title": "Before the Eclipse: Archaeologies of Art in Mexico",
-      "artist": "Group show",
-      "venue": "Museo Tamayo",
-      "city": "Mexico City",
-      "start": "2026-06-10",
-      "end": "2026-10-18",
-      "tags": ["archaeology", "contemporary"],
-      "blurb": "More than sixty artists reassess 1980s Mexico through pre-Hispanic heritage, territory, and the country's globalizing turn.",
-      "note": "Chapultepec Park; closes Oct 18.",
-      "url": "https://www.museotamayo.org/en/exposiciones-actuales"
     },
     {
       "title": "Richard Prince: Tell Me Everything",
@@ -1330,6 +1267,31 @@
       "blurb": "Nearly 100 horse paintings by more than 60 artists, lent from Beijing's Palace Museum, trace one of Chinese art's most enduring subjects across seven centuries.",
       "note": "In West Kowloon, a short walk from M+; book timed tickets online.",
       "url": "https://www.hkpm.org.hk/en/about/press-release/hong-kong-palace-museum-unveils-exciting-2026-exhibition-lineup-with-nine-new-exhibitions-showcasing-chinese-treasures-and-world-art-masterpieces"
+    },
+    {
+      "title": "Adolphe de Meyer: The Substance of a Venetian Dream",
+      "artist": "Adolphe de Meyer",
+      "venue": "Huis Marseille",
+      "city": "Amsterdam",
+      "start": "2026-10-24",
+      "end": "2027-02-07",
+      "tags": ["photography", "pictorialism", "fashion"],
+      "access": ["museumkaart"],
+      "blurb": "Huis Marseille turns to Baron Adolphe de Meyer, the early twentieth-century pictorialist whose soft-focus, light-drenched images helped invent fashion photography.",
+      "note": "The museum is closed Oct 19-23 while the new season is installed; it reopens with this show and two others on Oct 24.",
+      "url": "https://huismarseille.nl/en/exhibitions/venetian-dream/"
+    },
+    {
+      "title": "Van Eyck: The Portraits",
+      "artist": "Jan van Eyck",
+      "venue": "The National Gallery",
+      "city": "London",
+      "start": "2026-11-21",
+      "end": "2027-04-11",
+      "tags": ["old master", "portraiture", "early netherlandish"],
+      "blurb": "All nine of Jan van Eyck's known painted portraits, half his surviving work, come together for the first time, joined by his only surviving drawing and the Arnolfini Portrait.",
+      "note": "Ticketed show in the Ground Floor Galleries; expect timed entry to sell out on weekends.",
+      "url": "https://www.nationalgallery.org.uk/exhibitions/van-eyck-the-portraits"
     }
   ]
 }
