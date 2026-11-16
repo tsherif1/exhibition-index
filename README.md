@@ -9,10 +9,12 @@ international art capitals.
 ## How it works
 
 - [index.html](index.html) — the entire app: a single static page, no build step, no dependencies.
-- [data/exhibitions.json](data/exhibitions.json) — the listings, refreshed weekly by a scheduled
+- [data/exhibitions.json](data/exhibitions.json) — the listings, refreshed weekly by a cloud-scheduled
   Claude Code routine that researches current shows and verifies every date against museum sources.
-- [REFRESH.md](REFRESH.md) — the research rules the routine follows. Policy changes
+- [REFRESH.md](REFRESH.md) — the weekly workflow and research rules the routine follows. Policy changes
   (new cities, favorite venues, coverage depth) go here, not in the JSON.
+- [scripts/refresh.py](scripts/refresh.py) — `triage` prints what needs research this week;
+  `check --write` validates the data and normalises its formatting.
 
 ## Running locally
 
