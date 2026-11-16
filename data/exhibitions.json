@@ -1,6 +1,6 @@
 {
   "updated": "2026-11-16",
-  "method": "Weekly triage-driven refresh (Nov 16, 2026) using web search against museum sites and listings press; direct page fetches were blocked for every museum site tried, so dates were cross-checked across multiple search sources. Dropped six closed shows: Women of the Wiener Werkstätte, Octopus & Others, Anicka Yi at Storm King, Ali Banisadr at the AKG, The Land of Chocolate Sprinkles, and the Patricia Massey Momentum Award show. Re-confirmed closing dates and marked final weeks for Iris van Herpen, American Icon, Sky Hopinka, Saodat Ismailova, Kindred, the Venice Biennale, and Daitokuji; confirmed the Jesús Soto and Van Eyck openings. Added Diedrick Brackens (BMA) and Somewhere Over the Rainbow of Row Homes (UMBC CADVC) for under-target Baltimore, and Something Sinister (Burchfield Penney) for Buffalo. Skipped for conflicting or unconfirmed end dates: Jerrell Gibbs at the BMA, the Whitney's artport, and the Renwick's Handwork.",
+  "method": "Weekly triage-driven refresh (Nov 16, 2026) using web search against museum sites and listings press; direct page fetches were blocked for every museum site tried, so dates were cross-checked across multiple search sources. Dropped six closed shows: Women of the Wiener Werkstätte, Octopus & Others, Anicka Yi at Storm King, Ali Banisadr at the AKG, The Land of Chocolate Sprinkles, and the Patricia Massey Momentum Award show. Re-confirmed closing dates and marked final weeks for Iris van Herpen, American Icon, Sky Hopinka, Saodat Ismailova, Kindred, the Venice Biennale, and Daitokuji; confirmed the Jesús Soto and Van Eyck openings. Added Diedrick Brackens (BMA) and Somewhere Over the Rainbow of Row Homes (UMBC CADVC) for under-target Baltimore, and Something Sinister (Burchfield Penney) for Buffalo. Skipped for conflicting or unconfirmed end dates: Jerrell Gibbs at the BMA, the Whitney's artport, and the Renwick's Handwork; a same-day follow-up pass added Museumkaart access to the Stadsarchief show (museum.nl lists the pass as valid) and left Diedrick Brackens without free access because the BMA site blocked fetches and its ticketing could not be confirmed.",
   "exhibitions": [
     {
       "title": "Guggenheim Pop: 1960 to Now",
@@ -1202,8 +1202,9 @@
       "start": "2026-11-06",
       "end": "2027-03-07",
       "tags": ["cityscapes", "dutch golden age", "local history"],
+      "access": ["museumkaart"],
       "blurb": "Iconic seventeenth-century views of Amsterdam, examined as propaganda and city marketing, in a joint project with the Amsterdam Museum for its centenary.",
-      "note": "At De Bazel, Vijzelstraat 32; Dutch title Meesterwerk Amsterdam. Check Museumkaart coverage before you go.",
+      "note": "At De Bazel, Vijzelstraat 32; Dutch title Meesterwerk Amsterdam. The Stadsarchief accepts the Museumkaart.",
       "url": "https://www.amsterdammuseum.nl/en/exhibition/meesterwerk-amsterdam/276334"
     },
     {
