@@ -1,6 +1,6 @@
 {
-  "updated": "2026-11-02",
-  "method": "Web research against museum sites and reputable listings press (early Nov 2026); every title, venue, and full date range verified against an official page or corroborated across multiple sources. Dropped as closed by Nov 2: Matisse and Martinique; Carel Visser in the Rijksmuseum Gardens; Richard Dadd: Beyond Bedlam; Jesse Krimes: Elegy Quilts; Glass, Made in Antiquity. Added newly verified shows: Designing the Gilded Age (Met), Rembrandt's Lions (Morgan), New York Fashion at PS1, Amsterdam - A Work of Art (Stadsarchief), Robert Ryman: The Real Thing (Barbican), Painting the French Riviera (Royal Academy), and Cézanne et nous (Grand Palais). Many museum sites blocked direct page fetches this round, so existing entries were not all individually re-confirmed. Still skipped for lack of a confirmed closing date: the Whitney's artport: A History of Internet Art (opens Nov 21; sources conflict on the end date), the Renwick's Handwork: Contemporary Craft (opens Nov 13), Dia Beacon's Haegue Yang: Through, and Foam's Hailun Ma: Hometown.",
+  "updated": "2026-11-16",
+  "method": "Weekly triage-driven refresh (Nov 16, 2026) using web search against museum sites and listings press; direct page fetches were blocked for every museum site tried, so dates were cross-checked across multiple search sources. Dropped six closed shows: Women of the Wiener Werkstätte, Octopus & Others, Anicka Yi at Storm King, Ali Banisadr at the AKG, The Land of Chocolate Sprinkles, and the Patricia Massey Momentum Award show. Re-confirmed closing dates and marked final weeks for Iris van Herpen, American Icon, Sky Hopinka, Saodat Ismailova, Kindred, the Venice Biennale, and Daitokuji; confirmed the Jesús Soto and Van Eyck openings. Added Diedrick Brackens (BMA) and Somewhere Over the Rainbow of Row Homes (UMBC CADVC) for under-target Baltimore, and Something Sinister (Burchfield Penney) for Buffalo. Skipped for conflicting or unconfirmed end dates: Jerrell Gibbs at the BMA, the Whitney's artport, and the Renwick's Handwork.",
   "exhibitions": [
     {
       "title": "Guggenheim Pop: 1960 to Now",
@@ -27,30 +27,6 @@
       "url": "https://www.guggenheim.org/exhibition/taryn-simon"
     },
     {
-      "title": "Modernity and Opulence: Women of the Wiener Werkstätte",
-      "artist": "Group show",
-      "venue": "Jewish Museum",
-      "city": "New York",
-      "start": "2026-07-17",
-      "end": "2026-11-15",
-      "tags": ["design", "modern"],
-      "blurb": "For the first time, the lasting contributions of the Jewish women who shaped the Wiener Werkstätte's modernist design language, as artists and as patrons.",
-      "note": "Organized with Vienna's MAK museum.",
-      "url": "https://thejewishmuseum.org/exhibitions/women-of-the-wiener-werkstatte/"
-    },
-    {
-      "title": "Octopus & Others: Acts of Collaboration & Poetics",
-      "artist": "Group exhibition, inspired by Papo Colo",
-      "venue": "El Museo del Barrio",
-      "city": "New York",
-      "start": "2026-08-06",
-      "end": "2026-11-15",
-      "tags": ["latinx art", "performance", "collaboration"],
-      "blurb": "Revisits Exit Art co-founder Papo Colo's 1982 courtyard performance Octopus: An Act of Sculpture as a launchpad for new collaborative and poetic works by contemporary artists.",
-      "note": "Anchored by a recent gift of panels from Colo's original Octopus.",
-      "url": "https://elmuseo.org/exhibitions/"
-    },
-    {
       "title": "Teddy Sandoval and the Butch Gardens School of Art",
       "artist": "Teddy Sandoval",
       "venue": "El Museo del Barrio",
@@ -63,18 +39,6 @@
       "url": "https://elmuseo.org/exhibitions/"
     },
     {
-      "title": "Anicka Yi: Message from the Mud",
-      "artist": "Anicka Yi",
-      "venue": "Storm King Art Center",
-      "city": "New York",
-      "start": "2026-05-17",
-      "end": "2026-11-09",
-      "tags": ["installation", "land art"],
-      "blurb": "Yi's first large-scale outdoor project stages a fictional archaeological dig - twenty living Winogradsky columns culturing Storm King's own pond mud into slow paintings.",
-      "note": "Final week; Storm King, New Windsor - Hudson Valley day trip.",
-      "url": "https://stormking.org/"
-    },
-    {
       "title": "Iris van Herpen: Sculpting the Senses",
       "artist": "Iris van Herpen",
       "venue": "Brooklyn Museum",
@@ -83,7 +47,7 @@
       "end": "2026-12-06",
       "tags": ["fashion", "design"],
       "blurb": "The North American debut of this retrospective gathers more than 140 haute couture creations by the Dutch designer alongside the scientific and artistic references that inspired them.",
-      "note": "Separately ticketed, timed entry recommended.",
+      "note": "Final weeks, closes December 6; separately ticketed, timed entry recommended.",
       "url": "https://www.brooklynmuseum.org/exhibitions/iris-van-herpen"
     },
     {
@@ -204,7 +168,7 @@
       "tags": ["american", "survey"],
       "access": ["free"],
       "blurb": "More than thirty works from the National Gallery's collection trace how artists have saluted, reworked, and interrogated the flag.",
-      "note": "East Building Concourse; free, no passes.",
+      "note": "Final weeks; East Building Concourse; free, no passes.",
       "url": "https://www.nga.gov/exhibitions/american-icon-us-flag-art"
     },
     {
@@ -217,7 +181,7 @@
       "tags": ["film", "photography", "indigenous"],
       "access": ["free"],
       "blurb": "Through photographs, poems, and film, Hopinka connects family, language, place, and lived Indigenous experience.",
-      "note": "West Building, Ground Floor, Gallery G22; free.",
+      "note": "Final weeks; West Building, Ground Floor, Gallery G22; free.",
       "url": "https://www.nga.gov/exhibitions/sky-hopinka"
     },
     {
@@ -282,7 +246,7 @@
       "tags": ["film", "installation"],
       "access": ["free"],
       "blurb": "The Uzbek artist's first major US museum presentation weaves film and installation around Central Asian myth, memory, and landscape.",
-      "note": "Arthur M. Sackler Gallery, Gallery 28; free.",
+      "note": "Final weeks, closes November 29; Arthur M. Sackler Gallery, Gallery 28; free.",
       "url": "https://asia.si.edu/whats-on/exhibitions/saodat-ismailova-melted-into-the-sun/"
     },
     {
@@ -422,18 +386,6 @@
       "url": "https://www.philamuseum.org/exhibitions/marcel-duchamp"
     },
     {
-      "title": "Ali Banisadr: Temple of the Mind",
-      "artist": "Ali Banisadr",
-      "venue": "Buffalo AKG Art Museum",
-      "city": "Buffalo",
-      "start": "2026-06-26",
-      "end": "2026-11-08",
-      "tags": ["painting", "collection intervention"],
-      "blurb": "The AKG's first artist collection intervention - Banisadr threads his own work through the permanent galleries alongside his picks from Hiroshige to Goya.",
-      "note": "Hemicycle Gallery and throughout the Wilmers Building.",
-      "url": "https://buffaloakg.org/art/exhibitions/ali-banisadr-temple-mind"
-    },
-    {
       "title": "Ragnar Kjartansson: Politics of the Obvious",
       "artist": "Ragnar Kjartansson",
       "venue": "Buffalo AKG Art Museum",
@@ -466,7 +418,7 @@
       "end": "2026-11-22",
       "tags": ["indigenous", "collection"],
       "blurb": "A collaboration with the Seneca-Iroquois National Museum on how artists preserve, reinterpret, and evolve cultural practices across both collections.",
-      "note": "On view at the Burchfield Penney Off Center at K Art, 808 Main Street.",
+      "note": "Final week; at the Burchfield Penney Off Center at K Art, 808 Main Street, open Thursday to Saturday 1 to 5.",
       "url": "https://burchfieldpenney.org/exhibitions/exhibition:kindred-works-from-the-burchfield-penney-art-center-and-seneca-iroquois-national-museum-collections/"
     },
     {
@@ -533,19 +485,6 @@
       "blurb": "More than thirty Matisse paintings, sculptures and prints from the Centre Pompidou, set among contemporaries and followers from Picasso to Rothko.",
       "note": "Organized with the Centre Pompidou during its long closure.",
       "url": "https://www.hartmuseum.nl/en/exhibitions/chez-matisse/"
-    },
-    {
-      "title": "The Land of Chocolate Sprinkles: Building a New World Together",
-      "artist": "CATPC",
-      "venue": "H'ART Museum",
-      "city": "Amsterdam",
-      "start": "2026-05-22",
-      "end": "2026-11-08",
-      "tags": ["contemporary", "sculpture", "colonial history"],
-      "access": ["museumkaart"],
-      "blurb": "The Congolese collective CATPC debuts in Amsterdam with sculptures made from cocoa, palm oil, and sugar confronting plantation economics.",
-      "note": "Final week; proceeds from related sales help the artists buy back exhausted plantation land.",
-      "url": "https://www.hartmuseum.nl/en/exhibitions/the-land-of-chocolate-sprinkles/"
     },
     {
       "title": "Nadav Kander: The Edge of Things",
@@ -852,18 +791,6 @@
       "url": "https://www.lewismuseum.org/exhibitions/"
     },
     {
-      "title": "Patricia Massey Momentum Award Exhibition",
-      "artist": "Madyha Leghari, Bao Nguyen, Ghazal Mojtahedi",
-      "venue": "Creative Alliance",
-      "city": "Baltimore",
-      "start": "2026-09-23",
-      "end": "2026-11-14",
-      "tags": ["immigrant artists", "group show"],
-      "blurb": "The inaugural exhibition for a new $10,000 prize honoring Baltimore housing pioneer Patricia Massey, showing new work by three emerging immigrant artists based in Maryland and DC.",
-      "note": "At The Patterson; the award winner was announced at the Sep 23 opening.",
-      "url": "https://creativealliance.org/patricia-massey-momentum-award/"
-    },
-    {
       "title": "The Condition of Being Near: Ecologies of Afro-Asia",
       "artist": "Group show",
       "venue": "ICA Philadelphia",
@@ -932,9 +859,9 @@
       "start": "2026-10-08",
       "end": "2027-01-10",
       "tags": ["installation", "painting"],
+      "access": ["free"],
       "blurb": "Ringing bells and thermochromatic paintings that shift colour with heat and light turn the Serpentine's galleries into a giant instrument.",
       "note": "Free admission, Kensington Gardens.",
-      "access": ["free"],
       "url": "https://www.serpentinegalleries.org/whats-on/"
     },
     {
@@ -1191,7 +1118,7 @@
       "end": "2026-12-06",
       "tags": ["Zen", "Japanese art", "national treasures", "tea culture"],
       "blurb": "Marking the Kyoto temple's 700th anniversary, the first Daitokuji exhibition in Tokyo in 41 years gathers National Treasures including Muqi's Guanyin, Monkeys, and Crane and a recreated interior of the temple's Sanmon gate.",
-      "note": "In the Heiseikan; works rotate between halves (Oct 14 to Nov 8, Nov 10 to Dec 6). Closed Mondays.",
+      "note": "Final weeks; in the Heiseikan, second rotation on view Nov 10 to Dec 6. Closed Mondays.",
       "url": "https://www.tnm.jp/"
     },
     {
@@ -1314,6 +1241,43 @@
       "blurb": "Cézanne's paintings in dialogue with the generations he shaped, co-produced by the GrandPalaisRmn, the Centre Pompidou, and the Musée d'Orsay.",
       "note": "Galleries 3 and 4; book ahead for weekends.",
       "url": "https://www.centrepompidou.fr/en/offer-to-professionals/press-area/cezanne-et-nous"
+    },
+    {
+      "title": "Diedrick Brackens: lights at the end of the world",
+      "artist": "Diedrick Brackens",
+      "venue": "Baltimore Museum of Art",
+      "city": "Baltimore",
+      "start": "2026-11-08",
+      "end": "2027-02-28",
+      "tags": ["textiles", "weaving", "contemporary"],
+      "blurb": "About fifteen mostly new hand-woven tapestries and sculptural weavings on emancipation, labor, and perseverance, with wild horses tied to Assateague Island, shown alongside commissioned poems by Baltimore poet Joël Díaz.",
+      "note": "Contemporary Wing Rotunda and third floor; check the BMA site for ticketing.",
+      "url": "https://artbma.org/exhibition/diedrick-brackens-lights-at-the-end-of-the-world/"
+    },
+    {
+      "title": "Somewhere Over the Rainbow of Row Homes, We Fly",
+      "artist": "Kelvin Bulluck, Ada Pinkston, Ernest Shaw, Shan Wallace, and others",
+      "venue": "UMBC Center for Art, Design and Visual Culture",
+      "city": "Baltimore",
+      "start": "2026-08-25",
+      "end": "2026-11-24",
+      "tags": ["group show", "baltimore artists"],
+      "access": ["free"],
+      "blurb": "An intergenerational group show of artists based in or deeply connected to Baltimore, curated by Angela N. Carroll and inspired by the narrative poetry of Nia June.",
+      "note": "Final week; artist talk November 19, 6 to 8 pm. Free admission on the UMBC campus in Catonsville.",
+      "url": "https://www.e-flux.com/announcements/6787838/somewhere-over-the-rainbow-of-row-homes-we-fly"
+    },
+    {
+      "title": "Something Sinister: The Haunted Landscapes of Charles E. Burchfield",
+      "artist": "Charles E. Burchfield",
+      "venue": "Burchfield Penney Art Center",
+      "city": "Buffalo",
+      "start": "2026-10-29",
+      "end": "2027-02-28",
+      "tags": ["watercolor", "american", "landscape"],
+      "blurb": "Built around the late masterpiece The Haunted Twilight, a concentrated look at Burchfield as an uncanny visionary for whom ordinary houses, streets, and woods hum with unseen energies, with rarely seen works from the Burchfield Foundation archives.",
+      "note": "Curated by Tullis Johnson; museum closed Mondays and Tuesdays.",
+      "url": "https://burchfieldpenney.org/exhibitions/exhibition:something-sinister-the-strange-and-haunted-visions-of-charles-e-burchfield/"
     }
   ]
 }
